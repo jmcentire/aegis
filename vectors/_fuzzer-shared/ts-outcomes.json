@@ -1,0 +1,4006 @@
+{
+  "seed": 3735928559,
+  "runs": 1000,
+  "outcomes": [
+    {
+      "id": "fuzz_0",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"toString\"}}"
+    },
+    {
+      "id": "fuzz_1",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-1,\"tags\":{\"component\":\"baton\",\"op\":\"p\"}}"
+    },
+    {
+      "id": "fuzz_2",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"__proto_\"}}"
+    },
+    {
+      "id": "fuzz_3",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"arg\"}}"
+    },
+    {
+      "id": "fuzz_4",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"call\"}}"
+    },
+    {
+      "id": "fuzz_5",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"1yEX\"}}"
+    },
+    {
+      "id": "fuzz_6",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"H\"}}"
+    },
+    {
+      "id": "fuzz_7",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-4,\"tags\":{\"component\":\"reeve\",\"op\":\"ha\"}}"
+    },
+    {
+      "id": "fuzz_8",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-130,\"tags\":{\"component\":\"test\",\"op\":\"1Ny-\"}}"
+    },
+    {
+      "id": "fuzz_9",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"El\"}}"
+    },
+    {
+      "id": "fuzz_10",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"length\"}}"
+    },
+    {
+      "id": "fuzz_11",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"length\"}}"
+    },
+    {
+      "id": "fuzz_12",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"Sjg00_\"}}"
+    },
+    {
+      "id": "fuzz_13",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"z\"}}"
+    },
+    {
+      "id": "fuzz_14",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"y\"}}"
+    },
+    {
+      "id": "fuzz_15",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"test\",\"op\":\"MCR1zM\"}}"
+    },
+    {
+      "id": "fuzz_16",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"jS8mr-Kf\"}}"
+    },
+    {
+      "id": "fuzz_17",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"bn\"}}"
+    },
+    {
+      "id": "fuzz_18",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"O\"}}"
+    },
+    {
+      "id": "fuzz_19",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"ye&\",\"tags\":{\"component\":\"baton\",\"op\":\"Jn7\"}}"
+    },
+    {
+      "id": "fuzz_20",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"tgU\"}}"
+    },
+    {
+      "id": "fuzz_21",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"ref\"}}"
+    },
+    {
+      "id": "fuzz_22",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"fzo\"}}"
+    },
+    {
+      "id": "fuzz_23",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\".i\"}}"
+    },
+    {
+      "id": "fuzz_24",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"KP\"}}"
+    },
+    {
+      "id": "fuzz_25",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"fF\"}}"
+    },
+    {
+      "id": "fuzz_26",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"C1t4\"}}"
+    },
+    {
+      "id": "fuzz_27",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"q_Rp\"}}"
+    },
+    {
+      "id": "fuzz_28",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-255,\"tags\":{\"component\":\"baton\",\"op\":\"vq6eOZ9\"}}"
+    },
+    {
+      "id": "fuzz_29",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"to\"}}"
+    },
+    {
+      "id": "fuzz_30",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"7c\"}}"
+    },
+    {
+      "id": "fuzz_31",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-996,\"tags\":{\"component\":\"baton\",\"op\":\"cons\"}}"
+    },
+    {
+      "id": "fuzz_32",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"ocaleSt\"}}"
+    },
+    {
+      "id": "fuzz_33",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"W\"}}"
+    },
+    {
+      "id": "fuzz_34",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-515,\"tags\":{\"component\":\"baton\",\"op\":\"zyG\"}}"
+    },
+    {
+      "id": "fuzz_35",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"G\"}}"
+    },
+    {
+      "id": "fuzz_36",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":58,\"tags\":{\"component\":\"reeve\",\"op\":\"y\"}}"
+    },
+    {
+      "id": "fuzz_37",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"*\",\"tags\":{\"component\":\"baton\",\"op\":\"lt\"}}"
+    },
+    {
+      "id": "fuzz_38",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"baton\",\"op\":\"toString\"}}"
+    },
+    {
+      "id": "fuzz_39",
+      "canonical": "{\"outcome\":\"ok\",\"value\":0,\"tags\":{\"component\":\"reeve\",\"op\":\"__\"}}"
+    },
+    {
+      "id": "fuzz_40",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"vB\"}}"
+    },
+    {
+      "id": "fuzz_41",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":\"refgumap\",\"tags\":{\"component\":\"baton\",\"op\":\"FCLJAmx\"}}"
+    },
+    {
+      "id": "fuzz_42",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"S\"}}"
+    },
+    {
+      "id": "fuzz_43",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"toLo\"}}"
+    },
+    {
+      "id": "fuzz_44",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"arguments\"}}"
+    },
+    {
+      "id": "fuzz_45",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"y~\",\"tags\":{\"component\":\"test\",\"op\":\"t\"}}"
+    },
+    {
+      "id": "fuzz_46",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-998,\"tags\":{\"component\":\"test\",\"op\":\"1\"}}"
+    },
+    {
+      "id": "fuzz_47",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"S^&;3\",\"tags\":{\"component\":\"reeve\",\"op\":\"S\"}}"
+    },
+    {
+      "id": "fuzz_48",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"yvvN\"}}"
+    },
+    {
+      "id": "fuzz_49",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"U_l\"}}"
+    },
+    {
+      "id": "fuzz_50",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"-eguf7w\"}}"
+    },
+    {
+      "id": "fuzz_51",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"befineGet\"}}"
+    },
+    {
+      "id": "fuzz_52",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"4\"}}"
+    },
+    {
+      "id": "fuzz_53",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"U\"}}"
+    },
+    {
+      "id": "fuzz_54",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"b\"}}"
+    },
+    {
+      "id": "fuzz_55",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\".\"}}"
+    },
+    {
+      "id": "fuzz_56",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"0uf\"}}"
+    },
+    {
+      "id": "fuzz_57",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"w6\"}}"
+    },
+    {
+      "id": "fuzz_58",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"test\",\"op\":\"J\"}}"
+    },
+    {
+      "id": "fuzz_59",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"p7ettenp\"}}"
+    },
+    {
+      "id": "fuzz_60",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":7,\"tags\":{\"component\":\"baton\",\"op\":\"G\"}}"
+    },
+    {
+      "id": "fuzz_61",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"MS\"}}"
+    },
+    {
+      "id": "fuzz_62",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"test\",\"op\":\"2\"}}"
+    },
+    {
+      "id": "fuzz_63",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"S\"}}"
+    },
+    {
+      "id": "fuzz_64",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Z\"}}"
+    },
+    {
+      "id": "fuzz_65",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"baton\",\"op\":\"cal\"}}"
+    },
+    {
+      "id": "fuzz_66",
+      "canonical": "{\"outcome\":\"ok\",\"value\":5,\"tags\":{\"component\":\"reeve\",\"op\":\"12le\"}}"
+    },
+    {
+      "id": "fuzz_67",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"JS5\"}}"
+    },
+    {
+      "id": "fuzz_68",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"uS\"}}"
+    },
+    {
+      "id": "fuzz_69",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"RzaCMO\"}}"
+    },
+    {
+      "id": "fuzz_70",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"8MPm\"}}"
+    },
+    {
+      "id": "fuzz_71",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"D\"}}"
+    },
+    {
+      "id": "fuzz_72",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"fuzz\",\"op\":\"k\"}}"
+    },
+    {
+      "id": "fuzz_73",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"baton\",\"op\":\"bind\"}}"
+    },
+    {
+      "id": "fuzz_74",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"0Z9O2LDg\"}}"
+    },
+    {
+      "id": "fuzz_75",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"c\"}}"
+    },
+    {
+      "id": "fuzz_76",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"constructor\"}}"
+    },
+    {
+      "id": "fuzz_77",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"[Gz!~?=\",\"tags\":{\"component\":\"reeve\",\"op\":\"cG\"}}"
+    },
+    {
+      "id": "fuzz_78",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"__de\"}}"
+    },
+    {
+      "id": "fuzz_79",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"-\"}}"
+    },
+    {
+      "id": "fuzz_80",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"GOc\"}}"
+    },
+    {
+      "id": "fuzz_81",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"3Qno3R8i\"}}"
+    },
+    {
+      "id": "fuzz_82",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"6w\"}}"
+    },
+    {
+      "id": "fuzz_83",
+      "canonical": "{\"outcome\":\"ok\",\"value\":6,\"tags\":{\"component\":\"fuzz\",\"op\":\"v\"}}"
+    },
+    {
+      "id": "fuzz_84",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"){H(Rk(8U\",\"tags\":{\"component\":\"baton\",\"op\":\"ZG\"}}"
+    },
+    {
+      "id": "fuzz_85",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"X\"}}"
+    },
+    {
+      "id": "fuzz_86",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"baton\",\"op\":\"A\"}}"
+    },
+    {
+      "id": "fuzz_87",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"ejf\"}}"
+    },
+    {
+      "id": "fuzz_88",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"oq\"}}"
+    },
+    {
+      "id": "fuzz_89",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"q\"}}"
+    },
+    {
+      "id": "fuzz_90",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"n2\"}}"
+    },
+    {
+      "id": "fuzz_91",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"d2\"}}"
+    },
+    {
+      "id": "fuzz_92",
+      "canonical": "{\"outcome\":\"ok\",\"value\":429,\"tags\":{\"component\":\"baton\",\"op\":\"C8ka\"}}"
+    },
+    {
+      "id": "fuzz_93",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"Q;j'5\",\"tags\":{\"component\":\"reeve\",\"op\":\"O\"}}"
+    },
+    {
+      "id": "fuzz_94",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"6PC\"}}"
+    },
+    {
+      "id": "fuzz_95",
+      "canonical": "{\"outcome\":\"ok\",\"value\":610,\"tags\":{\"component\":\"fuzz\",\"op\":\"k\"}}"
+    },
+    {
+      "id": "fuzz_96",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"Cre\\\\C@T(G+\",\"tags\":{\"component\":\"test\",\"op\":\"ook\"}}"
+    },
+    {
+      "id": "fuzz_97",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"kpr\"}}"
+    },
+    {
+      "id": "fuzz_98",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-2,\"tags\":{\"component\":\"baton\",\"op\":\"D\"}}"
+    },
+    {
+      "id": "fuzz_99",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"test\",\"op\":\"L\"}}"
+    },
+    {
+      "id": "fuzz_100",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"W4\"}}"
+    },
+    {
+      "id": "fuzz_101",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"-\"}}"
+    },
+    {
+      "id": "fuzz_102",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"U\"}}"
+    },
+    {
+      "id": "fuzz_103",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"c0f\"}}"
+    },
+    {
+      "id": "fuzz_104",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"OkZp\"}}"
+    },
+    {
+      "id": "fuzz_105",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"p\"}}"
+    },
+    {
+      "id": "fuzz_106",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"oL\"}}"
+    },
+    {
+      "id": "fuzz_107",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"gTVXLQNm\"}}"
+    },
+    {
+      "id": "fuzz_108",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"bind\"}}"
+    },
+    {
+      "id": "fuzz_109",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"test\",\"op\":\"v\"}}"
+    },
+    {
+      "id": "fuzz_110",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"HD6CYy\"}}"
+    },
+    {
+      "id": "fuzz_111",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"cgVH\"}}"
+    },
+    {
+      "id": "fuzz_112",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"=wrZ:n?h|\",\"tags\":{\"component\":\"fuzz\",\"op\":\"0\"}}"
+    },
+    {
+      "id": "fuzz_113",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"t3\"}}"
+    },
+    {
+      "id": "fuzz_114",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":984,\"tags\":{\"component\":\"baton\",\"op\":\"6LsC\"}}"
+    },
+    {
+      "id": "fuzz_115",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"callerkeyz\"}}"
+    },
+    {
+      "id": "fuzz_116",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"wPI5OU3-y\"}}"
+    },
+    {
+      "id": "fuzz_117",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"0\"}}"
+    },
+    {
+      "id": "fuzz_118",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"cI\"}}"
+    },
+    {
+      "id": "fuzz_119",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"co\"}}"
+    },
+    {
+      "id": "fuzz_120",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Ey\"}}"
+    },
+    {
+      "id": "fuzz_121",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"tDX\"}}"
+    },
+    {
+      "id": "fuzz_122",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"Ok|/\",\"tags\":{\"component\":\"fuzz\",\"op\":\"h.oy\"}}"
+    },
+    {
+      "id": "fuzz_123",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"04r\"}}"
+    },
+    {
+      "id": "fuzz_124",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"EV\"}}"
+    },
+    {
+      "id": "fuzz_125",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"__def\"}}"
+    },
+    {
+      "id": "fuzz_126",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"_\"}}"
+    },
+    {
+      "id": "fuzz_127",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Q\"}}"
+    },
+    {
+      "id": "fuzz_128",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Rob\"}}"
+    },
+    {
+      "id": "fuzz_129",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"47vSMTFGS\"}}"
+    },
+    {
+      "id": "fuzz_130",
+      "canonical": "{\"outcome\":\"ok\",\"value\":398,\"tags\":{\"component\":\"test\",\"op\":\"q\"}}"
+    },
+    {
+      "id": "fuzz_131",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"K\"}}"
+    },
+    {
+      "id": "fuzz_132",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"test\",\"op\":\"G\"}}"
+    },
+    {
+      "id": "fuzz_133",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"l\"}}"
+    },
+    {
+      "id": "fuzz_134",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"A.\"}}"
+    },
+    {
+      "id": "fuzz_135",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"P\"}}"
+    },
+    {
+      "id": "fuzz_136",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"e\"}}"
+    },
+    {
+      "id": "fuzz_137",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"D\"}}"
+    },
+    {
+      "id": "fuzz_138",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"name\"}}"
+    },
+    {
+      "id": "fuzz_139",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"n9R9\"}}"
+    },
+    {
+      "id": "fuzz_140",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"-Tb_N\"}}"
+    },
+    {
+      "id": "fuzz_141",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"g\"}}"
+    },
+    {
+      "id": "fuzz_142",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"14-\"}}"
+    },
+    {
+      "id": "fuzz_143",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"p\"}}"
+    },
+    {
+      "id": "fuzz_144",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"U\"}}"
+    },
+    {
+      "id": "fuzz_145",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"BiHo\"}}"
+    },
+    {
+      "id": "fuzz_146",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"N\"}}"
+    },
+    {
+      "id": "fuzz_147",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"__defi\"}}"
+    },
+    {
+      "id": "fuzz_148",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"r\"}}"
+    },
+    {
+      "id": "fuzz_149",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"+\",\"tags\":{\"component\":\"baton\",\"op\":\"AG\"}}"
+    },
+    {
+      "id": "fuzz_150",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"C\"}}"
+    },
+    {
+      "id": "fuzz_151",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-9,\"tags\":{\"component\":\"test\",\"op\":\"wz\"}}"
+    },
+    {
+      "id": "fuzz_152",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"name\"}}"
+    },
+    {
+      "id": "fuzz_153",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"~__d\",\"tags\":{\"component\":\"fuzz\",\"op\":\"bind\"}}"
+    },
+    {
+      "id": "fuzz_154",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"z.eE7\"}}"
+    },
+    {
+      "id": "fuzz_155",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-1,\"tags\":{\"component\":\"baton\",\"op\":\"-_Q0\"}}"
+    },
+    {
+      "id": "fuzz_156",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"r\"}}"
+    },
+    {
+      "id": "fuzz_157",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"ZgZS\"}}"
+    },
+    {
+      "id": "fuzz_158",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"test\",\"op\":\"-x\"}}"
+    },
+    {
+      "id": "fuzz_159",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"Ez\"}}"
+    },
+    {
+      "id": "fuzz_160",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"-ET6\"}}"
+    },
+    {
+      "id": "fuzz_161",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"test\",\"op\":\"a4.2\"}}"
+    },
+    {
+      "id": "fuzz_162",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"k76\"}}"
+    },
+    {
+      "id": "fuzz_163",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"5\"}}"
+    },
+    {
+      "id": "fuzz_164",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"Q\"}}"
+    },
+    {
+      "id": "fuzz_165",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-804,\"tags\":{\"component\":\"baton\",\"op\":\"8W\"}}"
+    },
+    {
+      "id": "fuzz_166",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"c\"}}"
+    },
+    {
+      "id": "fuzz_167",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"ja\"}}"
+    },
+    {
+      "id": "fuzz_168",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Tq\"}}"
+    },
+    {
+      "id": "fuzz_169",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"1\"}}"
+    },
+    {
+      "id": "fuzz_170",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"r\"}}"
+    },
+    {
+      "id": "fuzz_171",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"xO\"}}"
+    },
+    {
+      "id": "fuzz_172",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"v7K\"}}"
+    },
+    {
+      "id": "fuzz_173",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"zR\"}}"
+    },
+    {
+      "id": "fuzz_174",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"Bt\"}}"
+    },
+    {
+      "id": "fuzz_175",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"test\",\"op\":\"1R\"}}"
+    },
+    {
+      "id": "fuzz_176",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":405,\"tags\":{\"component\":\"fuzz\",\"op\":\"91j\"}}"
+    },
+    {
+      "id": "fuzz_177",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"RGe\"}}"
+    },
+    {
+      "id": "fuzz_178",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"3LSbh\"}}"
+    },
+    {
+      "id": "fuzz_179",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\".yy\"}}"
+    },
+    {
+      "id": "fuzz_180",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"bGz\"}}"
+    },
+    {
+      "id": "fuzz_181",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":\"y[1zvM43U\",\"tags\":{\"component\":\"baton\",\"op\":\"t\"}}"
+    },
+    {
+      "id": "fuzz_182",
+      "canonical": "{\"outcome\":\"ok\",\"value\":7,\"tags\":{\"component\":\"reeve\",\"op\":\"0zLJZ\"}}"
+    },
+    {
+      "id": "fuzz_183",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"XEB\"}}"
+    },
+    {
+      "id": "fuzz_184",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"constru\"}}"
+    },
+    {
+      "id": "fuzz_185",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"XfH\"}}"
+    },
+    {
+      "id": "fuzz_186",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"0\"}}"
+    },
+    {
+      "id": "fuzz_187",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"rm\"}}"
+    },
+    {
+      "id": "fuzz_188",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"LQ\"}}"
+    },
+    {
+      "id": "fuzz_189",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Ozp\"}}"
+    },
+    {
+      "id": "fuzz_190",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"_K\"}}"
+    },
+    {
+      "id": "fuzz_191",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"CuK\"}}"
+    },
+    {
+      "id": "fuzz_192",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"s\"}}"
+    },
+    {
+      "id": "fuzz_193",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"W9K\"}}"
+    },
+    {
+      "id": "fuzz_194",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"o\"}}"
+    },
+    {
+      "id": "fuzz_195",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"test\",\"op\":\"F\"}}"
+    },
+    {
+      "id": "fuzz_196",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"3JmxfC\"}}"
+    },
+    {
+      "id": "fuzz_197",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"V\"}}"
+    },
+    {
+      "id": "fuzz_198",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"test\",\"op\":\"HS1HPD\"}}"
+    },
+    {
+      "id": "fuzz_199",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"_WJh\"}}"
+    },
+    {
+      "id": "fuzz_200",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"l\",\"tags\":{\"component\":\"baton\",\"op\":\"hDs\"}}"
+    },
+    {
+      "id": "fuzz_201",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"U\"}}"
+    },
+    {
+      "id": "fuzz_202",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"g\",\"tags\":{\"component\":\"fuzz\",\"op\":\"rS\"}}"
+    },
+    {
+      "id": "fuzz_203",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"ref\"}}"
+    },
+    {
+      "id": "fuzz_204",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"pr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"xd\"}}"
+    },
+    {
+      "id": "fuzz_205",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"apply\"}}"
+    },
+    {
+      "id": "fuzz_206",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"V9\"}}"
+    },
+    {
+      "id": "fuzz_207",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"j\"}}"
+    },
+    {
+      "id": "fuzz_208",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"5EqqW\"}}"
+    },
+    {
+      "id": "fuzz_209",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"y\"}}"
+    },
+    {
+      "id": "fuzz_210",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-186,\"tags\":{\"component\":\"reeve\",\"op\":\"7Sf0h\"}}"
+    },
+    {
+      "id": "fuzz_211",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"rd\"}}"
+    },
+    {
+      "id": "fuzz_212",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"G\"}}"
+    },
+    {
+      "id": "fuzz_213",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"2I9f3IdhZ\"}}"
+    },
+    {
+      "id": "fuzz_214",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Bp\"}}"
+    },
+    {
+      "id": "fuzz_215",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"xQJg3\"}}"
+    },
+    {
+      "id": "fuzz_216",
+      "canonical": "{\"outcome\":\"ok\",\"value\":945,\"tags\":{\"component\":\"fuzz\",\"op\":\"OV\"}}"
+    },
+    {
+      "id": "fuzz_217",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"e\"}}"
+    },
+    {
+      "id": "fuzz_218",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"ry\"}}"
+    },
+    {
+      "id": "fuzz_219",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"-J20:XiCds\",\"tags\":{\"component\":\"test\",\"op\":\"e\"}}"
+    },
+    {
+      "id": "fuzz_220",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"C7\"}}"
+    },
+    {
+      "id": "fuzz_221",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-694,\"tags\":{\"component\":\"fuzz\",\"op\":\"6yZe-4WT\"}}"
+    },
+    {
+      "id": "fuzz_222",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Xtyl\"}}"
+    },
+    {
+      "id": "fuzz_223",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"\",\"tags\":{\"component\":\"fuzz\",\"op\":\"zw\"}}"
+    },
+    {
+      "id": "fuzz_224",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"c\"}}"
+    },
+    {
+      "id": "fuzz_225",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"eXw-JFRQ\"}}"
+    },
+    {
+      "id": "fuzz_226",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"length\"}}"
+    },
+    {
+      "id": "fuzz_227",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"j\"}}"
+    },
+    {
+      "id": "fuzz_228",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"LF\"}}"
+    },
+    {
+      "id": "fuzz_229",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"J\"}}"
+    },
+    {
+      "id": "fuzz_230",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"jh\"}}"
+    },
+    {
+      "id": "fuzz_231",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"$D\\\"1tx\",\"tags\":{\"component\":\"fuzz\",\"op\":\".2\"}}"
+    },
+    {
+      "id": "fuzz_232",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"lE\",\"tags\":{\"component\":\"reeve\",\"op\":\"toString\"}}"
+    },
+    {
+      "id": "fuzz_233",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"6f\"}}"
+    },
+    {
+      "id": "fuzz_234",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"40zKMKRw\"}}"
+    },
+    {
+      "id": "fuzz_235",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"toStr\"}}"
+    },
+    {
+      "id": "fuzz_236",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"4b\"}}"
+    },
+    {
+      "id": "fuzz_237",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"test\",\"op\":\"E\"}}"
+    },
+    {
+      "id": "fuzz_238",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"lN\"}}"
+    },
+    {
+      "id": "fuzz_239",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"spDK7\"}}"
+    },
+    {
+      "id": "fuzz_240",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"0X\"}}"
+    },
+    {
+      "id": "fuzz_241",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"mG9\"}}"
+    },
+    {
+      "id": "fuzz_242",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"m\"}}"
+    },
+    {
+      "id": "fuzz_243",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"-\"}}"
+    },
+    {
+      "id": "fuzz_244",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"V\"}}"
+    },
+    {
+      "id": "fuzz_245",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"Sy7.\"}}"
+    },
+    {
+      "id": "fuzz_246",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"gc\"}}"
+    },
+    {
+      "id": "fuzz_247",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"d\"}}"
+    },
+    {
+      "id": "fuzz_248",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"7CcO\"}}"
+    },
+    {
+      "id": "fuzz_249",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"4\"}}"
+    },
+    {
+      "id": "fuzz_250",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"-\"}}"
+    },
+    {
+      "id": "fuzz_251",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"t_W\"}}"
+    },
+    {
+      "id": "fuzz_252",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"H19\"}}"
+    },
+    {
+      "id": "fuzz_253",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"yw\"}}"
+    },
+    {
+      "id": "fuzz_254",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"jK3W\"}}"
+    },
+    {
+      "id": "fuzz_255",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"B\"}}"
+    },
+    {
+      "id": "fuzz_256",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"gw\"}}"
+    },
+    {
+      "id": "fuzz_257",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"vke\",\"tags\":{\"component\":\"test\",\"op\":\"l1\"}}"
+    },
+    {
+      "id": "fuzz_258",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"VgE1\"}}"
+    },
+    {
+      "id": "fuzz_259",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"Yi.D\"}}"
+    },
+    {
+      "id": "fuzz_260",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"cwy?%tqe:\",\"tags\":{\"component\":\"baton\",\"op\":\"N0\"}}"
+    },
+    {
+      "id": "fuzz_261",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"SIhAS\"}}"
+    },
+    {
+      "id": "fuzz_262",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"9\"}}"
+    },
+    {
+      "id": "fuzz_263",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"ffGC\"}}"
+    },
+    {
+      "id": "fuzz_264",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"Wvu\"}}"
+    },
+    {
+      "id": "fuzz_265",
+      "canonical": "{\"outcome\":\"ok\",\"value\":849,\"tags\":{\"component\":\"test\",\"op\":\"xK\"}}"
+    },
+    {
+      "id": "fuzz_266",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"9Xl\"}}"
+    },
+    {
+      "id": "fuzz_267",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"gh_\"}}"
+    },
+    {
+      "id": "fuzz_268",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"6.\"}}"
+    },
+    {
+      "id": "fuzz_269",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":978,\"tags\":{\"component\":\"test\",\"op\":\"4\"}}"
+    },
+    {
+      "id": "fuzz_270",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"tQB\"}}"
+    },
+    {
+      "id": "fuzz_271",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"%d8bpdW_3\\\"\",\"tags\":{\"component\":\"fuzz\",\"op\":\"name\"}}"
+    },
+    {
+      "id": "fuzz_272",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"pT\"}}"
+    },
+    {
+      "id": "fuzz_273",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"V\"}}"
+    },
+    {
+      "id": "fuzz_274",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"x\"}}"
+    },
+    {
+      "id": "fuzz_275",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"7wB\"}}"
+    },
+    {
+      "id": "fuzz_276",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"eIb\"}}"
+    },
+    {
+      "id": "fuzz_277",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"4jh\"}}"
+    },
+    {
+      "id": "fuzz_278",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"argumentspro\"}}"
+    },
+    {
+      "id": "fuzz_279",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"0O8\"}}"
+    },
+    {
+      "id": "fuzz_280",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"rlNvkrK\"}}"
+    },
+    {
+      "id": "fuzz_281",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"__proto__\"}}"
+    },
+    {
+      "id": "fuzz_282",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"\",\"tags\":{\"component\":\"reeve\",\"op\":\"t3\"}}"
+    },
+    {
+      "id": "fuzz_283",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"J\"}}"
+    },
+    {
+      "id": "fuzz_284",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"ng_\"}}"
+    },
+    {
+      "id": "fuzz_285",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"tMV\"}}"
+    },
+    {
+      "id": "fuzz_286",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-237,\"tags\":{\"component\":\"test\",\"op\":\"apply\"}}"
+    },
+    {
+      "id": "fuzz_287",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"ZSfI5hPGI\"}}"
+    },
+    {
+      "id": "fuzz_288",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"Y\"}}"
+    },
+    {
+      "id": "fuzz_289",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"ref\"}}"
+    },
+    {
+      "id": "fuzz_290",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"&T'ZkA#GjK\",\"tags\":{\"component\":\"test\",\"op\":\"xapplyHOumer\"}}"
+    },
+    {
+      "id": "fuzz_291",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"nU\"}}"
+    },
+    {
+      "id": "fuzz_292",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"~\\\"#{oeNm}\",\"tags\":{\"component\":\"test\",\"op\":\"R\"}}"
+    },
+    {
+      "id": "fuzz_293",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"SkRqc_nyJc\"}}"
+    },
+    {
+      "id": "fuzz_294",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"test\",\"op\":\"__proto__\"}}"
+    },
+    {
+      "id": "fuzz_295",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Y2\"}}"
+    },
+    {
+      "id": "fuzz_296",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"DrP-wT\"}}"
+    },
+    {
+      "id": "fuzz_297",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"cgU.\"}}"
+    },
+    {
+      "id": "fuzz_298",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"A\"}}"
+    },
+    {
+      "id": "fuzz_299",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-594,\"tags\":{\"component\":\"test\",\"op\":\"7shi\"}}"
+    },
+    {
+      "id": "fuzz_300",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"fuzz\",\"op\":\"H\"}}"
+    },
+    {
+      "id": "fuzz_301",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"o\"}}"
+    },
+    {
+      "id": "fuzz_302",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"yX\"}}"
+    },
+    {
+      "id": "fuzz_303",
+      "canonical": "{\"outcome\":\"ok\",\"value\":847,\"tags\":{\"component\":\"baton\",\"op\":\"c\"}}"
+    },
+    {
+      "id": "fuzz_304",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"q\"}}"
+    },
+    {
+      "id": "fuzz_305",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"rk\"}}"
+    },
+    {
+      "id": "fuzz_306",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"gBx0JQosWq.c\"}}"
+    },
+    {
+      "id": "fuzz_307",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-331,\"tags\":{\"component\":\"reeve\",\"op\":\"G\"}}"
+    },
+    {
+      "id": "fuzz_308",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"Y\"}}"
+    },
+    {
+      "id": "fuzz_309",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"l\"}}"
+    },
+    {
+      "id": "fuzz_310",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"__p\"}}"
+    },
+    {
+      "id": "fuzz_311",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"\",\"tags\":{\"component\":\"reeve\",\"op\":\"s\"}}"
+    },
+    {
+      "id": "fuzz_312",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"con\"}}"
+    },
+    {
+      "id": "fuzz_313",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"PW\"}}"
+    },
+    {
+      "id": "fuzz_314",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"8&mZ:p\",\"tags\":{\"component\":\"reeve\",\"op\":\"ha\"}}"
+    },
+    {
+      "id": "fuzz_315",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"8iK\"}}"
+    },
+    {
+      "id": "fuzz_316",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\" xVz\",\"tags\":{\"component\":\"reeve\",\"op\":\"c\"}}"
+    },
+    {
+      "id": "fuzz_317",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"9DNjSref\"}}"
+    },
+    {
+      "id": "fuzz_318",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"FSl\"}}"
+    },
+    {
+      "id": "fuzz_319",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"tEaL\"}}"
+    },
+    {
+      "id": "fuzz_320",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"K\"}}"
+    },
+    {
+      "id": "fuzz_321",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Mf\"}}"
+    },
+    {
+      "id": "fuzz_322",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"6wmizRSlUk\"}}"
+    },
+    {
+      "id": "fuzz_323",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"u\"}}"
+    },
+    {
+      "id": "fuzz_324",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"g31\"}}"
+    },
+    {
+      "id": "fuzz_325",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"caller\"}}"
+    },
+    {
+      "id": "fuzz_326",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"V0h\"}}"
+    },
+    {
+      "id": "fuzz_327",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"4\"}}"
+    },
+    {
+      "id": "fuzz_328",
+      "canonical": "{\"outcome\":\"ok\",\"value\":959,\"tags\":{\"component\":\"fuzz\",\"op\":\"na\"}}"
+    },
+    {
+      "id": "fuzz_329",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"R`&,\",\"tags\":{\"component\":\"test\",\"op\":\"0R\"}}"
+    },
+    {
+      "id": "fuzz_330",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Xjh\"}}"
+    },
+    {
+      "id": "fuzz_331",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"4zX4\"}}"
+    },
+    {
+      "id": "fuzz_332",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"key\"}}"
+    },
+    {
+      "id": "fuzz_333",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"0D\"}}"
+    },
+    {
+      "id": "fuzz_334",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"D\"}}"
+    },
+    {
+      "id": "fuzz_335",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"aM\"}}"
+    },
+    {
+      "id": "fuzz_336",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"`8y/3H&\",\"tags\":{\"component\":\"fuzz\",\"op\":\"U\"}}"
+    },
+    {
+      "id": "fuzz_337",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"5OF\"}}"
+    },
+    {
+      "id": "fuzz_338",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"toString\"}}"
+    },
+    {
+      "id": "fuzz_339",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"P\"}}"
+    },
+    {
+      "id": "fuzz_340",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"Q\"}}"
+    },
+    {
+      "id": "fuzz_341",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"qHn\"}}"
+    },
+    {
+      "id": "fuzz_342",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"HT\"}}"
+    },
+    {
+      "id": "fuzz_343",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-992,\"tags\":{\"component\":\"reeve\",\"op\":\"S5-\"}}"
+    },
+    {
+      "id": "fuzz_344",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"test\",\"op\":\"ref\"}}"
+    },
+    {
+      "id": "fuzz_345",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"s\"}}"
+    },
+    {
+      "id": "fuzz_346",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"f_\",\"tags\":{\"component\":\"reeve\",\"op\":\"f\"}}"
+    },
+    {
+      "id": "fuzz_347",
+      "canonical": "{\"outcome\":\"ok\",\"value\":165,\"tags\":{\"component\":\"reeve\",\"op\":\"X\"}}"
+    },
+    {
+      "id": "fuzz_348",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"s_uCS\"}}"
+    },
+    {
+      "id": "fuzz_349",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"C\"}}"
+    },
+    {
+      "id": "fuzz_350",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"bqi\"}}"
+    },
+    {
+      "id": "fuzz_351",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"G\"}}"
+    },
+    {
+      "id": "fuzz_352",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"test\",\"op\":\"axx\"}}"
+    },
+    {
+      "id": "fuzz_353",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"R\"}}"
+    },
+    {
+      "id": "fuzz_354",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"94\"}}"
+    },
+    {
+      "id": "fuzz_355",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"fuzz\",\"op\":\"RB\"}}"
+    },
+    {
+      "id": "fuzz_356",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"Q-T.f\"}}"
+    },
+    {
+      "id": "fuzz_357",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"v\"}}"
+    },
+    {
+      "id": "fuzz_358",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"call\"}}"
+    },
+    {
+      "id": "fuzz_359",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"_fwp,\\\"K{V\",\"tags\":{\"component\":\"reeve\",\"op\":\"e\"}}"
+    },
+    {
+      "id": "fuzz_360",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"d8TB9\"}}"
+    },
+    {
+      "id": "fuzz_361",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"n\"}}"
+    },
+    {
+      "id": "fuzz_362",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"m\"}}"
+    },
+    {
+      "id": "fuzz_363",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"mfbVN.\"}}"
+    },
+    {
+      "id": "fuzz_364",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"cPBWCB\"}}"
+    },
+    {
+      "id": "fuzz_365",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\",\",\"tags\":{\"component\":\"test\",\"op\":\"D\"}}"
+    },
+    {
+      "id": "fuzz_366",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"nx_gST\"}}"
+    },
+    {
+      "id": "fuzz_367",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-556,\"tags\":{\"component\":\"fuzz\",\"op\":\"t\"}}"
+    },
+    {
+      "id": "fuzz_368",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"a3I\"}}"
+    },
+    {
+      "id": "fuzz_369",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"ZVV\"}}"
+    },
+    {
+      "id": "fuzz_370",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"bind\"}}"
+    },
+    {
+      "id": "fuzz_371",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"appl\"}}"
+    },
+    {
+      "id": "fuzz_372",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"0xd\"}}"
+    },
+    {
+      "id": "fuzz_373",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"fuzz\",\"op\":\"__lookupGet\"}}"
+    },
+    {
+      "id": "fuzz_374",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"w1C-p\"}}"
+    },
+    {
+      "id": "fuzz_375",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-785,\"tags\":{\"component\":\"fuzz\",\"op\":\"s\"}}"
+    },
+    {
+      "id": "fuzz_376",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"iaN1\"}}"
+    },
+    {
+      "id": "fuzz_377",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"CqI\"}}"
+    },
+    {
+      "id": "fuzz_378",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-685,\"tags\":{\"component\":\"fuzz\",\"op\":\"S\"}}"
+    },
+    {
+      "id": "fuzz_379",
+      "canonical": "{\"outcome\":\"ok\",\"value\":4,\"tags\":{\"component\":\"baton\",\"op\":\"__\"}}"
+    },
+    {
+      "id": "fuzz_380",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":762,\"tags\":{\"component\":\"fuzz\",\"op\":\"key\"}}"
+    },
+    {
+      "id": "fuzz_381",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"test\",\"op\":\"6iu\"}}"
+    },
+    {
+      "id": "fuzz_382",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"h\"}}"
+    },
+    {
+      "id": "fuzz_383",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"FbMB\"}}"
+    },
+    {
+      "id": "fuzz_384",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"tS0q]\",\"tags\":{\"component\":\"test\",\"op\":\"arg\"}}"
+    },
+    {
+      "id": "fuzz_385",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"es\"}}"
+    },
+    {
+      "id": "fuzz_386",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"M\"}}"
+    },
+    {
+      "id": "fuzz_387",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Hxr\"}}"
+    },
+    {
+      "id": "fuzz_388",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"c\"}}"
+    },
+    {
+      "id": "fuzz_389",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"e\"}}"
+    },
+    {
+      "id": "fuzz_390",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"prototypeL\"}}"
+    },
+    {
+      "id": "fuzz_391",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-7,\"tags\":{\"component\":\"baton\",\"op\":\"6.hsf6s4TLK\"}}"
+    },
+    {
+      "id": "fuzz_392",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"._s\"}}"
+    },
+    {
+      "id": "fuzz_393",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"LIe5o\"}}"
+    },
+    {
+      "id": "fuzz_394",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"k2\"}}"
+    },
+    {
+      "id": "fuzz_395",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"constructor\"}}"
+    },
+    {
+      "id": "fuzz_396",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"hm\"}}"
+    },
+    {
+      "id": "fuzz_397",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"arguments\"}}"
+    },
+    {
+      "id": "fuzz_398",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"l\"}}"
+    },
+    {
+      "id": "fuzz_399",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"zTEap\"}}"
+    },
+    {
+      "id": "fuzz_400",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"9Tj\"}}"
+    },
+    {
+      "id": "fuzz_401",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"09Kve\"}}"
+    },
+    {
+      "id": "fuzz_402",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-242,\"tags\":{\"component\":\"baton\",\"op\":\"R\"}}"
+    },
+    {
+      "id": "fuzz_403",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"rL\"}}"
+    },
+    {
+      "id": "fuzz_404",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"d\"}}"
+    },
+    {
+      "id": "fuzz_405",
+      "canonical": "{\"outcome\":\"ok\",\"value\":907,\"tags\":{\"component\":\"fuzz\",\"op\":\"efng\"}}"
+    },
+    {
+      "id": "fuzz_406",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"He9S\"}}"
+    },
+    {
+      "id": "fuzz_407",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":\"&(\\\\_s\",\"tags\":{\"component\":\"test\",\"op\":\"WM\"}}"
+    },
+    {
+      "id": "fuzz_408",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"f\"}}"
+    },
+    {
+      "id": "fuzz_409",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"NjPD\"}}"
+    },
+    {
+      "id": "fuzz_410",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"-\"}}"
+    },
+    {
+      "id": "fuzz_411",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":998,\"tags\":{\"component\":\"fuzz\",\"op\":\"Bn\"}}"
+    },
+    {
+      "id": "fuzz_412",
+      "canonical": "{\"outcome\":\"ok\",\"value\":991,\"tags\":{\"component\":\"baton\",\"op\":\"dBrMER0\"}}"
+    },
+    {
+      "id": "fuzz_413",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"3.SG50s6\"}}"
+    },
+    {
+      "id": "fuzz_414",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"zPyz\\\"z\",\"tags\":{\"component\":\"fuzz\",\"op\":\"_6v\"}}"
+    },
+    {
+      "id": "fuzz_415",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"ha_\"}}"
+    },
+    {
+      "id": "fuzz_416",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"O\"}}"
+    },
+    {
+      "id": "fuzz_417",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"J\"}}"
+    },
+    {
+      "id": "fuzz_418",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"kyf\"}}"
+    },
+    {
+      "id": "fuzz_419",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"nWm\"}}"
+    },
+    {
+      "id": "fuzz_420",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"RDncG\"}}"
+    },
+    {
+      "id": "fuzz_421",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"baton\",\"op\":\"Zkey\"}}"
+    },
+    {
+      "id": "fuzz_422",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"y\"}}"
+    },
+    {
+      "id": "fuzz_423",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"prototype\"}}"
+    },
+    {
+      "id": "fuzz_424",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"jF_o\"}}"
+    },
+    {
+      "id": "fuzz_425",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"constructor\"}}"
+    },
+    {
+      "id": "fuzz_426",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"e-h\"}}"
+    },
+    {
+      "id": "fuzz_427",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-3,\"tags\":{\"component\":\"reeve\",\"op\":\"i\"}}"
+    },
+    {
+      "id": "fuzz_428",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"V\"}}"
+    },
+    {
+      "id": "fuzz_429",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-459,\"tags\":{\"component\":\"baton\",\"op\":\"name\"}}"
+    },
+    {
+      "id": "fuzz_430",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"e7Hr:Dn%H\",\"tags\":{\"component\":\"fuzz\",\"op\":\"a5R\"}}"
+    },
+    {
+      "id": "fuzz_431",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"test\",\"op\":\"A\"}}"
+    },
+    {
+      "id": "fuzz_432",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"N\"}}"
+    },
+    {
+      "id": "fuzz_433",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"t\"}}"
+    },
+    {
+      "id": "fuzz_434",
+      "canonical": "{\"outcome\":\"ok\",\"value\":508,\"tags\":{\"component\":\"reeve\",\"op\":\"2GvFCJvc\"}}"
+    },
+    {
+      "id": "fuzz_435",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"mQR\"}}"
+    },
+    {
+      "id": "fuzz_436",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"XKvJ\"}}"
+    },
+    {
+      "id": "fuzz_437",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"__proto__\"}}"
+    },
+    {
+      "id": "fuzz_438",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"ti40hSnN\"}}"
+    },
+    {
+      "id": "fuzz_439",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"%tz\",\"tags\":{\"component\":\"reeve\",\"op\":\"Q\"}}"
+    },
+    {
+      "id": "fuzz_440",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"jz\"}}"
+    },
+    {
+      "id": "fuzz_441",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\".\"}}"
+    },
+    {
+      "id": "fuzz_442",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"dB1J\"}}"
+    },
+    {
+      "id": "fuzz_443",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"-\"}}"
+    },
+    {
+      "id": "fuzz_444",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"o\"}}"
+    },
+    {
+      "id": "fuzz_445",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"}@G?!9\",\"tags\":{\"component\":\"fuzz\",\"op\":\"lxiG\"}}"
+    },
+    {
+      "id": "fuzz_446",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"i1\"}}"
+    },
+    {
+      "id": "fuzz_447",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"d\"}}"
+    },
+    {
+      "id": "fuzz_448",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"jvK\"}}"
+    },
+    {
+      "id": "fuzz_449",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"wy\"}}"
+    },
+    {
+      "id": "fuzz_450",
+      "canonical": "{\"outcome\":\"ok\",\"value\":967,\"tags\":{\"component\":\"fuzz\",\"op\":\"THm2\"}}"
+    },
+    {
+      "id": "fuzz_451",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"Qc\"}}"
+    },
+    {
+      "id": "fuzz_452",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"key\"}}"
+    },
+    {
+      "id": "fuzz_453",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"E\"}}"
+    },
+    {
+      "id": "fuzz_454",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-565,\"tags\":{\"component\":\"reeve\",\"op\":\"d\"}}"
+    },
+    {
+      "id": "fuzz_455",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"lf\"}}"
+    },
+    {
+      "id": "fuzz_456",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"fuzz\",\"op\":\"RPZ\"}}"
+    },
+    {
+      "id": "fuzz_457",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"7__look\"}}"
+    },
+    {
+      "id": "fuzz_458",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"R9T\"}}"
+    },
+    {
+      "id": "fuzz_459",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"O\"}}"
+    },
+    {
+      "id": "fuzz_460",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"E-5wf4SPz\"}}"
+    },
+    {
+      "id": "fuzz_461",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"]b\",\"tags\":{\"component\":\"reeve\",\"op\":\"NMzx\"}}"
+    },
+    {
+      "id": "fuzz_462",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"J__\"}}"
+    },
+    {
+      "id": "fuzz_463",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"test\",\"op\":\"1\"}}"
+    },
+    {
+      "id": "fuzz_464",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"IEF\"}}"
+    },
+    {
+      "id": "fuzz_465",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"0-tE\"}}"
+    },
+    {
+      "id": "fuzz_466",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"suC4ekoXw\"}}"
+    },
+    {
+      "id": "fuzz_467",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"z\"}}"
+    },
+    {
+      "id": "fuzz_468",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"f\"}}"
+    },
+    {
+      "id": "fuzz_469",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"r\"}}"
+    },
+    {
+      "id": "fuzz_470",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"vZseFt_UkVnb\"}}"
+    },
+    {
+      "id": "fuzz_471",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"kE$D#d&\",\"tags\":{\"component\":\"test\",\"op\":\"oztoStr\"}}"
+    },
+    {
+      "id": "fuzz_472",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"yfcG_key__lo\"}}"
+    },
+    {
+      "id": "fuzz_473",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"3IZc3\"}}"
+    },
+    {
+      "id": "fuzz_474",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"956n4\"}}"
+    },
+    {
+      "id": "fuzz_475",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"protot\"}}"
+    },
+    {
+      "id": "fuzz_476",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"UPsS\"}}"
+    },
+    {
+      "id": "fuzz_477",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"TA\"}}"
+    },
+    {
+      "id": "fuzz_478",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-765,\"tags\":{\"component\":\"test\",\"op\":\"PhasOwnPrope\"}}"
+    },
+    {
+      "id": "fuzz_479",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"y9\"}}"
+    },
+    {
+      "id": "fuzz_480",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"eIAd\"}}"
+    },
+    {
+      "id": "fuzz_481",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"W-\"}}"
+    },
+    {
+      "id": "fuzz_482",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"s07vl\"}}"
+    },
+    {
+      "id": "fuzz_483",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Bo\"}}"
+    },
+    {
+      "id": "fuzz_484",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"bbw\"}}"
+    },
+    {
+      "id": "fuzz_485",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"4r3\"}}"
+    },
+    {
+      "id": "fuzz_486",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"U\"}}"
+    },
+    {
+      "id": "fuzz_487",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"0\"}}"
+    },
+    {
+      "id": "fuzz_488",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\".wx\"}}"
+    },
+    {
+      "id": "fuzz_489",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"w\"}}"
+    },
+    {
+      "id": "fuzz_490",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"pL\"}}"
+    },
+    {
+      "id": "fuzz_491",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"__define\"}}"
+    },
+    {
+      "id": "fuzz_492",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"ZS\"}}"
+    },
+    {
+      "id": "fuzz_493",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"p\"}}"
+    },
+    {
+      "id": "fuzz_494",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"fuzz\",\"op\":\"8\"}}"
+    },
+    {
+      "id": "fuzz_495",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-3,\"tags\":{\"component\":\"fuzz\",\"op\":\"k\"}}"
+    },
+    {
+      "id": "fuzz_496",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"L\"}}"
+    },
+    {
+      "id": "fuzz_497",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"n9I\"}}"
+    },
+    {
+      "id": "fuzz_498",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"z__defineSe\"}}"
+    },
+    {
+      "id": "fuzz_499",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"test\",\"op\":\"0b\"}}"
+    },
+    {
+      "id": "fuzz_500",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"97\"}}"
+    },
+    {
+      "id": "fuzz_501",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"k\"}}"
+    },
+    {
+      "id": "fuzz_502",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"2q\"}}"
+    },
+    {
+      "id": "fuzz_503",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"tc\"}}"
+    },
+    {
+      "id": "fuzz_504",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"b\"}}"
+    },
+    {
+      "id": "fuzz_505",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"jU\"}}"
+    },
+    {
+      "id": "fuzz_506",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-469,\"tags\":{\"component\":\"baton\",\"op\":\"PjW\"}}"
+    },
+    {
+      "id": "fuzz_507",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"baton\",\"op\":\"toLocaleSt\"}}"
+    },
+    {
+      "id": "fuzz_508",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Ore\"}}"
+    },
+    {
+      "id": "fuzz_509",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"0\"}}"
+    },
+    {
+      "id": "fuzz_510",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"p\"}}"
+    },
+    {
+      "id": "fuzz_511",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"G\"}}"
+    },
+    {
+      "id": "fuzz_512",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"PV\"}}"
+    },
+    {
+      "id": "fuzz_513",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"K1\"}}"
+    },
+    {
+      "id": "fuzz_514",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"xc\"}}"
+    },
+    {
+      "id": "fuzz_515",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"test\",\"op\":\"bind26\"}}"
+    },
+    {
+      "id": "fuzz_516",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"baton\",\"op\":\".z\"}}"
+    },
+    {
+      "id": "fuzz_517",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"vooR\"}}"
+    },
+    {
+      "id": "fuzz_518",
+      "canonical": "{\"outcome\":\"ok\",\"value\":308,\"tags\":{\"component\":\"reeve\",\"op\":\"q6\"}}"
+    },
+    {
+      "id": "fuzz_519",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"I\"}}"
+    },
+    {
+      "id": "fuzz_520",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":\"_,Jkv\",\"tags\":{\"component\":\"test\",\"op\":\"y\"}}"
+    },
+    {
+      "id": "fuzz_521",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"O\"}}"
+    },
+    {
+      "id": "fuzz_522",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Rl6-_\"}}"
+    },
+    {
+      "id": "fuzz_523",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"G\"}}"
+    },
+    {
+      "id": "fuzz_524",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"zoq\"}}"
+    },
+    {
+      "id": "fuzz_525",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-2,\"tags\":{\"component\":\"reeve\",\"op\":\"y\"}}"
+    },
+    {
+      "id": "fuzz_526",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"test\",\"op\":\"jB\"}}"
+    },
+    {
+      "id": "fuzz_527",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"l\"}}"
+    },
+    {
+      "id": "fuzz_528",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"1wzrN\"}}"
+    },
+    {
+      "id": "fuzz_529",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"3TJRh\"}}"
+    },
+    {
+      "id": "fuzz_530",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"prototype\"}}"
+    },
+    {
+      "id": "fuzz_531",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"f8\"}}"
+    },
+    {
+      "id": "fuzz_532",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"length\"}}"
+    },
+    {
+      "id": "fuzz_533",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"R\"}}"
+    },
+    {
+      "id": "fuzz_534",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"17Yp\"}}"
+    },
+    {
+      "id": "fuzz_535",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"&<__define\",\"tags\":{\"component\":\"reeve\",\"op\":\"ref\"}}"
+    },
+    {
+      "id": "fuzz_536",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"cf-3lH\"}}"
+    },
+    {
+      "id": "fuzz_537",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"v\"}}"
+    },
+    {
+      "id": "fuzz_538",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"4F\"}}"
+    },
+    {
+      "id": "fuzz_539",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"0d\"}}"
+    },
+    {
+      "id": "fuzz_540",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"nAgES\"}}"
+    },
+    {
+      "id": "fuzz_541",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"W\"}}"
+    },
+    {
+      "id": "fuzz_542",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-1,\"tags\":{\"component\":\"baton\",\"op\":\"IKndHOwtbH\"}}"
+    },
+    {
+      "id": "fuzz_543",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"J6j\"}}"
+    },
+    {
+      "id": "fuzz_544",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"8M97J\"}}"
+    },
+    {
+      "id": "fuzz_545",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"a\"}}"
+    },
+    {
+      "id": "fuzz_546",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"y\"}}"
+    },
+    {
+      "id": "fuzz_547",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":\"JL&{}&}\",\"tags\":{\"component\":\"reeve\",\"op\":\"pC\"}}"
+    },
+    {
+      "id": "fuzz_548",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"x3E\"}}"
+    },
+    {
+      "id": "fuzz_549",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"&c?e\",\"tags\":{\"component\":\"reeve\",\"op\":\"SRH6G\"}}"
+    },
+    {
+      "id": "fuzz_550",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Sa\"}}"
+    },
+    {
+      "id": "fuzz_551",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"fOo\"}}"
+    },
+    {
+      "id": "fuzz_552",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\".1\"}}"
+    },
+    {
+      "id": "fuzz_553",
+      "canonical": "{\"outcome\":\"ok\",\"value\":146,\"tags\":{\"component\":\"reeve\",\"op\":\"skQ_5\"}}"
+    },
+    {
+      "id": "fuzz_554",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"03uX9M\"}}"
+    },
+    {
+      "id": "fuzz_555",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"VBLJ\"}}"
+    },
+    {
+      "id": "fuzz_556",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"kdwH\"}}"
+    },
+    {
+      "id": "fuzz_557",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Qa\"}}"
+    },
+    {
+      "id": "fuzz_558",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"valueOf\"}}"
+    },
+    {
+      "id": "fuzz_559",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"X\"}}"
+    },
+    {
+      "id": "fuzz_560",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"Y5\"}}"
+    },
+    {
+      "id": "fuzz_561",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-3,\"tags\":{\"component\":\"reeve\",\"op\":\"mtoL\"}}"
+    },
+    {
+      "id": "fuzz_562",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"u\"}}"
+    },
+    {
+      "id": "fuzz_563",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"kl\"}}"
+    },
+    {
+      "id": "fuzz_564",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"mcEXFUhO7\"}}"
+    },
+    {
+      "id": "fuzz_565",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"IJmAV\"}}"
+    },
+    {
+      "id": "fuzz_566",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"J\"}}"
+    },
+    {
+      "id": "fuzz_567",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"XQh\"}}"
+    },
+    {
+      "id": "fuzz_568",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"apply\"}}"
+    },
+    {
+      "id": "fuzz_569",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"sv\"}}"
+    },
+    {
+      "id": "fuzz_570",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"dg)1\",\"tags\":{\"component\":\"baton\",\"op\":\"EWu\"}}"
+    },
+    {
+      "id": "fuzz_571",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"X5ZA\"}}"
+    },
+    {
+      "id": "fuzz_572",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"V.\"}}"
+    },
+    {
+      "id": "fuzz_573",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"jzOuhw\"}}"
+    },
+    {
+      "id": "fuzz_574",
+      "canonical": "{\"outcome\":\"ok\",\"value\":2,\"tags\":{\"component\":\"fuzz\",\"op\":\"r\"}}"
+    },
+    {
+      "id": "fuzz_575",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"ke\"}}"
+    },
+    {
+      "id": "fuzz_576",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"test\",\"op\":\"ertyIsEnu\"}}"
+    },
+    {
+      "id": "fuzz_577",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"baton\",\"op\":\"y\"}}"
+    },
+    {
+      "id": "fuzz_578",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"2swCoEKMK3S\"}}"
+    },
+    {
+      "id": "fuzz_579",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"h\"}}"
+    },
+    {
+      "id": "fuzz_580",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"Jd\"}}"
+    },
+    {
+      "id": "fuzz_581",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"x\"}}"
+    },
+    {
+      "id": "fuzz_582",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"KJvUO9LZp9KA\"}}"
+    },
+    {
+      "id": "fuzz_583",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"z\"}}"
+    },
+    {
+      "id": "fuzz_584",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"Kr\"}}"
+    },
+    {
+      "id": "fuzz_585",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"JsgF\"}}"
+    },
+    {
+      "id": "fuzz_586",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"~U\",\"tags\":{\"component\":\"reeve\",\"op\":\"KG\"}}"
+    },
+    {
+      "id": "fuzz_587",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"X.\"}}"
+    },
+    {
+      "id": "fuzz_588",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"K\"}}"
+    },
+    {
+      "id": "fuzz_589",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"__\"}}"
+    },
+    {
+      "id": "fuzz_590",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-520,\"tags\":{\"component\":\"baton\",\"op\":\"Xav9knjr\"}}"
+    },
+    {
+      "id": "fuzz_591",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"z\"}}"
+    },
+    {
+      "id": "fuzz_592",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"to\"}}"
+    },
+    {
+      "id": "fuzz_593",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"xY6]u@D=,\",\"tags\":{\"component\":\"baton\",\"op\":\"Gycbvo\"}}"
+    },
+    {
+      "id": "fuzz_594",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"6xLb01pr\"}}"
+    },
+    {
+      "id": "fuzz_595",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"R\"}}"
+    },
+    {
+      "id": "fuzz_596",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"Q\"}}"
+    },
+    {
+      "id": "fuzz_597",
+      "canonical": "{\"outcome\":\"ok\",\"value\":814,\"tags\":{\"component\":\"baton\",\"op\":\"c\"}}"
+    },
+    {
+      "id": "fuzz_598",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"^,MGVXv$\",\"tags\":{\"component\":\"test\",\"op\":\"So\"}}"
+    },
+    {
+      "id": "fuzz_599",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"cu\"}}"
+    },
+    {
+      "id": "fuzz_600",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"__defineGet\"}}"
+    },
+    {
+      "id": "fuzz_601",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"-\"}}"
+    },
+    {
+      "id": "fuzz_602",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"0yZ4z\"}}"
+    },
+    {
+      "id": "fuzz_603",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"call\"}}"
+    },
+    {
+      "id": "fuzz_604",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"h\"}}"
+    },
+    {
+      "id": "fuzz_605",
+      "canonical": "{\"outcome\":\"ok\",\"value\":842,\"tags\":{\"component\":\"reeve\",\"op\":\"y\"}}"
+    },
+    {
+      "id": "fuzz_606",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"D.+Ua8\",\"tags\":{\"component\":\"reeve\",\"op\":\"ay7\"}}"
+    },
+    {
+      "id": "fuzz_607",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"0\"}}"
+    },
+    {
+      "id": "fuzz_608",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"A9f\"}}"
+    },
+    {
+      "id": "fuzz_609",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"#-a!d\",\"tags\":{\"component\":\"baton\",\"op\":\"d\"}}"
+    },
+    {
+      "id": "fuzz_610",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"u4j\"}}"
+    },
+    {
+      "id": "fuzz_611",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"JtgO\"}}"
+    },
+    {
+      "id": "fuzz_612",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"Qu\"}}"
+    },
+    {
+      "id": "fuzz_613",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\">\",\"tags\":{\"component\":\"fuzz\",\"op\":\"cabuykd\"}}"
+    },
+    {
+      "id": "fuzz_614",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"0\"}}"
+    },
+    {
+      "id": "fuzz_615",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"MkGc\"}}"
+    },
+    {
+      "id": "fuzz_616",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"Hv\"}}"
+    },
+    {
+      "id": "fuzz_617",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"Jh}\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Sb6Pm\"}}"
+    },
+    {
+      "id": "fuzz_618",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"q\"}}"
+    },
+    {
+      "id": "fuzz_619",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\".Y\"}}"
+    },
+    {
+      "id": "fuzz_620",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"X\"}}"
+    },
+    {
+      "id": "fuzz_621",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"n5C\"}}"
+    },
+    {
+      "id": "fuzz_622",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"VK2qv\"}}"
+    },
+    {
+      "id": "fuzz_623",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"H\"}}"
+    },
+    {
+      "id": "fuzz_624",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"oisH\"}}"
+    },
+    {
+      "id": "fuzz_625",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"O4\"}}"
+    },
+    {
+      "id": "fuzz_626",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"YE00s.2\"}}"
+    },
+    {
+      "id": "fuzz_627",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"E\"}}"
+    },
+    {
+      "id": "fuzz_628",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"key\"}}"
+    },
+    {
+      "id": "fuzz_629",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"MNCi\"}}"
+    },
+    {
+      "id": "fuzz_630",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"09e\"}}"
+    },
+    {
+      "id": "fuzz_631",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"rf\"}}"
+    },
+    {
+      "id": "fuzz_632",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"CR91iC\"}}"
+    },
+    {
+      "id": "fuzz_633",
+      "canonical": "{\"outcome\":\"ok\",\"value\":724,\"tags\":{\"component\":\"baton\",\"op\":\"Eb\"}}"
+    },
+    {
+      "id": "fuzz_634",
+      "canonical": "{\"outcome\":\"ok\",\"value\":549,\"tags\":{\"component\":\"reeve\",\"op\":\"Tt7\"}}"
+    },
+    {
+      "id": "fuzz_635",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"4d\"}}"
+    },
+    {
+      "id": "fuzz_636",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-3,\"tags\":{\"component\":\"test\",\"op\":\"f\"}}"
+    },
+    {
+      "id": "fuzz_637",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"CPRjO\"}}"
+    },
+    {
+      "id": "fuzz_638",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"ncallerxnP\"}}"
+    },
+    {
+      "id": "fuzz_639",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"YW\"}}"
+    },
+    {
+      "id": "fuzz_640",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"_GV\"}}"
+    },
+    {
+      "id": "fuzz_641",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"M\"}}"
+    },
+    {
+      "id": "fuzz_642",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"eG\"}}"
+    },
+    {
+      "id": "fuzz_643",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Ja\"}}"
+    },
+    {
+      "id": "fuzz_644",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"6\"}}"
+    },
+    {
+      "id": "fuzz_645",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"test\",\"op\":\"9\"}}"
+    },
+    {
+      "id": "fuzz_646",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"5Rg2b\"}}"
+    },
+    {
+      "id": "fuzz_647",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"_y\"}}"
+    },
+    {
+      "id": "fuzz_648",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"TZM3W\"}}"
+    },
+    {
+      "id": "fuzz_649",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"z\"}}"
+    },
+    {
+      "id": "fuzz_650",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"XZJ\"}}"
+    },
+    {
+      "id": "fuzz_651",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"ref\"}}"
+    },
+    {
+      "id": "fuzz_652",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"y\"}}"
+    },
+    {
+      "id": "fuzz_653",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"7tEQe\"}}"
+    },
+    {
+      "id": "fuzz_654",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"SXr\"}}"
+    },
+    {
+      "id": "fuzz_655",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"j-RuAFre8\"}}"
+    },
+    {
+      "id": "fuzz_656",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"ltKxqxk\"}}"
+    },
+    {
+      "id": "fuzz_657",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"6\"}}"
+    },
+    {
+      "id": "fuzz_658",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"ai\"}}"
+    },
+    {
+      "id": "fuzz_659",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"9\"}}"
+    },
+    {
+      "id": "fuzz_660",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"rskB\"}}"
+    },
+    {
+      "id": "fuzz_661",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"P-Usj\"}}"
+    },
+    {
+      "id": "fuzz_662",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-406,\"tags\":{\"component\":\"baton\",\"op\":\"ZM\"}}"
+    },
+    {
+      "id": "fuzz_663",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"i\"}}"
+    },
+    {
+      "id": "fuzz_664",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-993,\"tags\":{\"component\":\"baton\",\"op\":\"Tr\"}}"
+    },
+    {
+      "id": "fuzz_665",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"4e\"}}"
+    },
+    {
+      "id": "fuzz_666",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"sKgHMh\"}}"
+    },
+    {
+      "id": "fuzz_667",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"OmaBoZpNHB7\"}}"
+    },
+    {
+      "id": "fuzz_668",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"call\"}}"
+    },
+    {
+      "id": "fuzz_669",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"kYX\"}}"
+    },
+    {
+      "id": "fuzz_670",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"0 M\",\"tags\":{\"component\":\"fuzz\",\"op\":\"F\"}}"
+    },
+    {
+      "id": "fuzz_671",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"test\",\"op\":\"x\"}}"
+    },
+    {
+      "id": "fuzz_672",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"nDanft-j\"}}"
+    },
+    {
+      "id": "fuzz_673",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"MTQH0AbxB\"}}"
+    },
+    {
+      "id": "fuzz_674",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"fPo\"}}"
+    },
+    {
+      "id": "fuzz_675",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"8\"}}"
+    },
+    {
+      "id": "fuzz_676",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"__\"}}"
+    },
+    {
+      "id": "fuzz_677",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"y4WO_\"}}"
+    },
+    {
+      "id": "fuzz_678",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-9,\"tags\":{\"component\":\"reeve\",\"op\":\"apply\"}}"
+    },
+    {
+      "id": "fuzz_679",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"8\"}}"
+    },
+    {
+      "id": "fuzz_680",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"length\"}}"
+    },
+    {
+      "id": "fuzz_681",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"Z\"}}"
+    },
+    {
+      "id": "fuzz_682",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"W\"}}"
+    },
+    {
+      "id": "fuzz_683",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"1\"}}"
+    },
+    {
+      "id": "fuzz_684",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"p3pMXr2\"}}"
+    },
+    {
+      "id": "fuzz_685",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"y\"}}"
+    },
+    {
+      "id": "fuzz_686",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Z7G\"}}"
+    },
+    {
+      "id": "fuzz_687",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"test\",\"op\":\"P4oRe\"}}"
+    },
+    {
+      "id": "fuzz_688",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"Y9R\"}}"
+    },
+    {
+      "id": "fuzz_689",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"eGargu\"}}"
+    },
+    {
+      "id": "fuzz_690",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"0E\"}}"
+    },
+    {
+      "id": "fuzz_691",
+      "canonical": "{\"outcome\":\"ok\",\"value\":447,\"tags\":{\"component\":\"fuzz\",\"op\":\"Fl\"}}"
+    },
+    {
+      "id": "fuzz_692",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"ookupGette\"}}"
+    },
+    {
+      "id": "fuzz_693",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"pv\"}}"
+    },
+    {
+      "id": "fuzz_694",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"BGJ\"}}"
+    },
+    {
+      "id": "fuzz_695",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"6f\"}}"
+    },
+    {
+      "id": "fuzz_696",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"f\"}}"
+    },
+    {
+      "id": "fuzz_697",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\",(~pn\",\"tags\":{\"component\":\"reeve\",\"op\":\"p0BdHAkM\"}}"
+    },
+    {
+      "id": "fuzz_698",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"V0\"}}"
+    },
+    {
+      "id": "fuzz_699",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Tc\"}}"
+    },
+    {
+      "id": "fuzz_700",
+      "canonical": "{\"outcome\":\"ok\",\"value\":322,\"tags\":{\"component\":\"test\",\"op\":\"-bQSZ6\"}}"
+    },
+    {
+      "id": "fuzz_701",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"Mx\"}}"
+    },
+    {
+      "id": "fuzz_702",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"\\\"\",\"tags\":{\"component\":\"reeve\",\"op\":\"MKBSzi\"}}"
+    },
+    {
+      "id": "fuzz_703",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"$:\",\"tags\":{\"component\":\"reeve\",\"op\":\"sxWqJ7QHGrfE\"}}"
+    },
+    {
+      "id": "fuzz_704",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":\"\\\"L\\\"\",\"tags\":{\"component\":\"baton\",\"op\":\"1DLJOCV\"}}"
+    },
+    {
+      "id": "fuzz_705",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"i\"}}"
+    },
+    {
+      "id": "fuzz_706",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"baton\",\"op\":\"Q\"}}"
+    },
+    {
+      "id": "fuzz_707",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"yqHds.Hy\"}}"
+    },
+    {
+      "id": "fuzz_708",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-677,\"tags\":{\"component\":\"baton\",\"op\":\"09\"}}"
+    },
+    {
+      "id": "fuzz_709",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"toString\"}}"
+    },
+    {
+      "id": "fuzz_710",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"I93h2\"}}"
+    },
+    {
+      "id": "fuzz_711",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"f\"}}"
+    },
+    {
+      "id": "fuzz_712",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"test\",\"op\":\"v\"}}"
+    },
+    {
+      "id": "fuzz_713",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"VBu\"}}"
+    },
+    {
+      "id": "fuzz_714",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"0\"}}"
+    },
+    {
+      "id": "fuzz_715",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"z\"}}"
+    },
+    {
+      "id": "fuzz_716",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"RaXcp\"}}"
+    },
+    {
+      "id": "fuzz_717",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"bd\"}}"
+    },
+    {
+      "id": "fuzz_718",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":\"\",\"tags\":{\"component\":\"test\",\"op\":\"NCC\"}}"
+    },
+    {
+      "id": "fuzz_719",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"8\"}}"
+    },
+    {
+      "id": "fuzz_720",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"fuzz\",\"op\":\"lh\"}}"
+    },
+    {
+      "id": "fuzz_721",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"B\"}}"
+    },
+    {
+      "id": "fuzz_722",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"c.D\"}}"
+    },
+    {
+      "id": "fuzz_723",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"6\"}}"
+    },
+    {
+      "id": "fuzz_724",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"x\"}}"
+    },
+    {
+      "id": "fuzz_725",
+      "canonical": "{\"outcome\":\"ok\",\"value\":3,\"tags\":{\"component\":\"baton\",\"op\":\"B4dfV\"}}"
+    },
+    {
+      "id": "fuzz_726",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"ar\"}}"
+    },
+    {
+      "id": "fuzz_727",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"y7\"}}"
+    },
+    {
+      "id": "fuzz_728",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"cpSl\"}}"
+    },
+    {
+      "id": "fuzz_729",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"v\"}}"
+    },
+    {
+      "id": "fuzz_730",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"t\"}}"
+    },
+    {
+      "id": "fuzz_731",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Y3s\"}}"
+    },
+    {
+      "id": "fuzz_732",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"HM1u.z\"}}"
+    },
+    {
+      "id": "fuzz_733",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"isProt\"}}"
+    },
+    {
+      "id": "fuzz_734",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"YG\"}}"
+    },
+    {
+      "id": "fuzz_735",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"bE\"}}"
+    },
+    {
+      "id": "fuzz_736",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"2\"}}"
+    },
+    {
+      "id": "fuzz_737",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"0q8PnG\"}}"
+    },
+    {
+      "id": "fuzz_738",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"vLNdp\"}}"
+    },
+    {
+      "id": "fuzz_739",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"bind\"}}"
+    },
+    {
+      "id": "fuzz_740",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":\"i)Mr\",\"tags\":{\"component\":\"reeve\",\"op\":\"E\"}}"
+    },
+    {
+      "id": "fuzz_741",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-175,\"tags\":{\"component\":\"reeve\",\"op\":\"constructo\"}}"
+    },
+    {
+      "id": "fuzz_742",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"nPH\"}}"
+    },
+    {
+      "id": "fuzz_743",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"V\"}}"
+    },
+    {
+      "id": "fuzz_744",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"caller\"}}"
+    },
+    {
+      "id": "fuzz_745",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"Eo.b\"}}"
+    },
+    {
+      "id": "fuzz_746",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"v\"}}"
+    },
+    {
+      "id": "fuzz_747",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-791,\"tags\":{\"component\":\"baton\",\"op\":\"5Adr\"}}"
+    },
+    {
+      "id": "fuzz_748",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"SALPV\"}}"
+    },
+    {
+      "id": "fuzz_749",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"Nz\"}}"
+    },
+    {
+      "id": "fuzz_750",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"p\"}}"
+    },
+    {
+      "id": "fuzz_751",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\")YLS`0^b\",\"tags\":{\"component\":\"reeve\",\"op\":\"A5\"}}"
+    },
+    {
+      "id": "fuzz_752",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"_8M\"}}"
+    },
+    {
+      "id": "fuzz_753",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-712,\"tags\":{\"component\":\"reeve\",\"op\":\"tUP\"}}"
+    },
+    {
+      "id": "fuzz_754",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"hgrjUg\"}}"
+    },
+    {
+      "id": "fuzz_755",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-804,\"tags\":{\"component\":\"fuzz\",\"op\":\"Yjes\"}}"
+    },
+    {
+      "id": "fuzz_756",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"pro\"}}"
+    },
+    {
+      "id": "fuzz_757",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"O=V)7\",\"tags\":{\"component\":\"baton\",\"op\":\"xGIiJ\"}}"
+    },
+    {
+      "id": "fuzz_758",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-8,\"tags\":{\"component\":\"reeve\",\"op\":\"FV\"}}"
+    },
+    {
+      "id": "fuzz_759",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"I\"}}"
+    },
+    {
+      "id": "fuzz_760",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"Lb\"}}"
+    },
+    {
+      "id": "fuzz_761",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-246,\"tags\":{\"component\":\"test\",\"op\":\"isP\"}}"
+    },
+    {
+      "id": "fuzz_762",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"-\"}}"
+    },
+    {
+      "id": "fuzz_763",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"aFn~^%q/\",\"tags\":{\"component\":\"test\",\"op\":\"name\"}}"
+    },
+    {
+      "id": "fuzz_764",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"baton\",\"op\":\"L2Q1m5\"}}"
+    },
+    {
+      "id": "fuzz_765",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"length\"}}"
+    },
+    {
+      "id": "fuzz_766",
+      "canonical": "{\"outcome\":\"ok\",\"value\":616,\"tags\":{\"component\":\"fuzz\",\"op\":\"l2argum\"}}"
+    },
+    {
+      "id": "fuzz_767",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"W9WdIf\"}}"
+    },
+    {
+      "id": "fuzz_768",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-705,\"tags\":{\"component\":\"test\",\"op\":\"kX\"}}"
+    },
+    {
+      "id": "fuzz_769",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"j\"}}"
+    },
+    {
+      "id": "fuzz_770",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"DLW.\"}}"
+    },
+    {
+      "id": "fuzz_771",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"p\"}}"
+    },
+    {
+      "id": "fuzz_772",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"o.\"}}"
+    },
+    {
+      "id": "fuzz_773",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"K-\"}}"
+    },
+    {
+      "id": "fuzz_774",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"jPZG\"}}"
+    },
+    {
+      "id": "fuzz_775",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"aZAdg4Vj\"}}"
+    },
+    {
+      "id": "fuzz_776",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"xt\"}}"
+    },
+    {
+      "id": "fuzz_777",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"YUpk_1\"}}"
+    },
+    {
+      "id": "fuzz_778",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-6,\"tags\":{\"component\":\"baton\",\"op\":\"ref\"}}"
+    },
+    {
+      "id": "fuzz_779",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"lis-\"}}"
+    },
+    {
+      "id": "fuzz_780",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"[gLn]j#\",\"tags\":{\"component\":\"test\",\"op\":\"yv3t\"}}"
+    },
+    {
+      "id": "fuzz_781",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"SMlHygb\"}}"
+    },
+    {
+      "id": "fuzz_782",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"__proto__\"}}"
+    },
+    {
+      "id": "fuzz_783",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-996,\"tags\":{\"component\":\"baton\",\"op\":\"jL\"}}"
+    },
+    {
+      "id": "fuzz_784",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"u\"}}"
+    },
+    {
+      "id": "fuzz_785",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"test\",\"op\":\"w\"}}"
+    },
+    {
+      "id": "fuzz_786",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"0r\"}}"
+    },
+    {
+      "id": "fuzz_787",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\":C\\\\3=<afO\",\"tags\":{\"component\":\"fuzz\",\"op\":\"QC2Ft\"}}"
+    },
+    {
+      "id": "fuzz_788",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"2b7Kybm#c\",\"tags\":{\"component\":\"fuzz\",\"op\":\"A6\"}}"
+    },
+    {
+      "id": "fuzz_789",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"YsyMbARY1\"}}"
+    },
+    {
+      "id": "fuzz_790",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"fuzz\",\"op\":\"8r\"}}"
+    },
+    {
+      "id": "fuzz_791",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"test\",\"op\":\"Gc\"}}"
+    },
+    {
+      "id": "fuzz_792",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"ZR\"}}"
+    },
+    {
+      "id": "fuzz_793",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"x.u89nW3N\"}}"
+    },
+    {
+      "id": "fuzz_794",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"-19\"}}"
+    },
+    {
+      "id": "fuzz_795",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"\",\"tags\":{\"component\":\"test\",\"op\":\"j\"}}"
+    },
+    {
+      "id": "fuzz_796",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"m\"}}"
+    },
+    {
+      "id": "fuzz_797",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"2BKulVae\"}}"
+    },
+    {
+      "id": "fuzz_798",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"C\"}}"
+    },
+    {
+      "id": "fuzz_799",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\".2s\"}}"
+    },
+    {
+      "id": "fuzz_800",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"OJi\"}}"
+    },
+    {
+      "id": "fuzz_801",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"q4TPh\"}}"
+    },
+    {
+      "id": "fuzz_802",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"rq\"}}"
+    },
+    {
+      "id": "fuzz_803",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"reeve\",\"op\":\"Ju\"}}"
+    },
+    {
+      "id": "fuzz_804",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"9l\"}}"
+    },
+    {
+      "id": "fuzz_805",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"mH\"}}"
+    },
+    {
+      "id": "fuzz_806",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"4Y\"}}"
+    },
+    {
+      "id": "fuzz_807",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"p1I8SuN\"}}"
+    },
+    {
+      "id": "fuzz_808",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"vpV\"}}"
+    },
+    {
+      "id": "fuzz_809",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"w\"}}"
+    },
+    {
+      "id": "fuzz_810",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"qa\"}}"
+    },
+    {
+      "id": "fuzz_811",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"ca\"}}"
+    },
+    {
+      "id": "fuzz_812",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-186,\"tags\":{\"component\":\"fuzz\",\"op\":\"7\"}}"
+    },
+    {
+      "id": "fuzz_813",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"baton\",\"op\":\"zj\"}}"
+    },
+    {
+      "id": "fuzz_814",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"argumen\"}}"
+    },
+    {
+      "id": "fuzz_815",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"_\"}}"
+    },
+    {
+      "id": "fuzz_816",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"h\"}}"
+    },
+    {
+      "id": "fuzz_817",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"fKC\"}}"
+    },
+    {
+      "id": "fuzz_818",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"valueOf\"}}"
+    },
+    {
+      "id": "fuzz_819",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"apply\"}}"
+    },
+    {
+      "id": "fuzz_820",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"4\"}}"
+    },
+    {
+      "id": "fuzz_821",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"h6b0\"}}"
+    },
+    {
+      "id": "fuzz_822",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-994,\"tags\":{\"component\":\"baton\",\"op\":\"Sc\"}}"
+    },
+    {
+      "id": "fuzz_823",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":\"=sOn5e<0>M\",\"tags\":{\"component\":\"baton\",\"op\":\"a\"}}"
+    },
+    {
+      "id": "fuzz_824",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"o\"}}"
+    },
+    {
+      "id": "fuzz_825",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"OO78\"}}"
+    },
+    {
+      "id": "fuzz_826",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"-l\"}}"
+    },
+    {
+      "id": "fuzz_827",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"%$ l\",\"tags\":{\"component\":\"test\",\"op\":\"34\"}}"
+    },
+    {
+      "id": "fuzz_828",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"x\"}}"
+    },
+    {
+      "id": "fuzz_829",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"\",\"tags\":{\"component\":\"reeve\",\"op\":\"G3\"}}"
+    },
+    {
+      "id": "fuzz_830",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"yY\"}}"
+    },
+    {
+      "id": "fuzz_831",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"t\"}}"
+    },
+    {
+      "id": "fuzz_832",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"6V\"}}"
+    },
+    {
+      "id": "fuzz_833",
+      "canonical": "{\"outcome\":\"ok\",\"value\":18,\"tags\":{\"component\":\"baton\",\"op\":\"apTKbmah\"}}"
+    },
+    {
+      "id": "fuzz_834",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"u\"}}"
+    },
+    {
+      "id": "fuzz_835",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"hPl\"}}"
+    },
+    {
+      "id": "fuzz_836",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\".L\"}}"
+    },
+    {
+      "id": "fuzz_837",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"bind\"}}"
+    },
+    {
+      "id": "fuzz_838",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"N\"}}"
+    },
+    {
+      "id": "fuzz_839",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-458,\"tags\":{\"component\":\"baton\",\"op\":\"tp3\"}}"
+    },
+    {
+      "id": "fuzz_840",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"Z1\"}}"
+    },
+    {
+      "id": "fuzz_841",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"DKI2\"}}"
+    },
+    {
+      "id": "fuzz_842",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"test\",\"op\":\"3\"}}"
+    },
+    {
+      "id": "fuzz_843",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"18en\"}}"
+    },
+    {
+      "id": "fuzz_844",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"O1yn\"}}"
+    },
+    {
+      "id": "fuzz_845",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"yB\"}}"
+    },
+    {
+      "id": "fuzz_846",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"_UO\"}}"
+    },
+    {
+      "id": "fuzz_847",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"C\"}}"
+    },
+    {
+      "id": "fuzz_848",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Et\"}}"
+    },
+    {
+      "id": "fuzz_849",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"Y__de\"}}"
+    },
+    {
+      "id": "fuzz_850",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"KV\"}}"
+    },
+    {
+      "id": "fuzz_851",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"pJNWT\"}}"
+    },
+    {
+      "id": "fuzz_852",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"F\"}}"
+    },
+    {
+      "id": "fuzz_853",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-996,\"tags\":{\"component\":\"baton\",\"op\":\"A\"}}"
+    },
+    {
+      "id": "fuzz_854",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"test\",\"op\":\"zOEO\"}}"
+    },
+    {
+      "id": "fuzz_855",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"fx\"}}"
+    },
+    {
+      "id": "fuzz_856",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"fuzz\",\"op\":\"rx\"}}"
+    },
+    {
+      "id": "fuzz_857",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"test\",\"op\":\"A\"}}"
+    },
+    {
+      "id": "fuzz_858",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":3,\"tags\":{\"component\":\"test\",\"op\":\"5\"}}"
+    },
+    {
+      "id": "fuzz_859",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":236,\"tags\":{\"component\":\"baton\",\"op\":\"r\"}}"
+    },
+    {
+      "id": "fuzz_860",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"aBD\",\"tags\":{\"component\":\"fuzz\",\"op\":\"6\"}}"
+    },
+    {
+      "id": "fuzz_861",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"bind\"}}"
+    },
+    {
+      "id": "fuzz_862",
+      "canonical": "{\"outcome\":\"ok\",\"value\":831,\"tags\":{\"component\":\"baton\",\"op\":\"ttCYCQULa\"}}"
+    },
+    {
+      "id": "fuzz_863",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"mx\"}}"
+    },
+    {
+      "id": "fuzz_864",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"AX\"}}"
+    },
+    {
+      "id": "fuzz_865",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-374,\"tags\":{\"component\":\"test\",\"op\":\"sncdGg\"}}"
+    },
+    {
+      "id": "fuzz_866",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"Z\"}}"
+    },
+    {
+      "id": "fuzz_867",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-688,\"tags\":{\"component\":\"baton\",\"op\":\"a\"}}"
+    },
+    {
+      "id": "fuzz_868",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"TVx\"}}"
+    },
+    {
+      "id": "fuzz_869",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"m\"}}"
+    },
+    {
+      "id": "fuzz_870",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"baton\",\"op\":\"B\"}}"
+    },
+    {
+      "id": "fuzz_871",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-744,\"tags\":{\"component\":\"baton\",\"op\":\"l8_Kd0cUXF-h\"}}"
+    },
+    {
+      "id": "fuzz_872",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"qV\"}}"
+    },
+    {
+      "id": "fuzz_873",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"RgjP\"}}"
+    },
+    {
+      "id": "fuzz_874",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"h\"}}"
+    },
+    {
+      "id": "fuzz_875",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"IargumentsjJ\"}}"
+    },
+    {
+      "id": "fuzz_876",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"?\",\"tags\":{\"component\":\"fuzz\",\"op\":\"9x\"}}"
+    },
+    {
+      "id": "fuzz_877",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"s8\"}}"
+    },
+    {
+      "id": "fuzz_878",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"E\"}}"
+    },
+    {
+      "id": "fuzz_879",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"f\"}}"
+    },
+    {
+      "id": "fuzz_880",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"iYcoargume\"}}"
+    },
+    {
+      "id": "fuzz_881",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"M\"}}"
+    },
+    {
+      "id": "fuzz_882",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"rl3\"}}"
+    },
+    {
+      "id": "fuzz_883",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"WjJ78WT\",\"tags\":{\"component\":\"test\",\"op\":\"KVHdF\"}}"
+    },
+    {
+      "id": "fuzz_884",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"vz\"}}"
+    },
+    {
+      "id": "fuzz_885",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"z\"}}"
+    },
+    {
+      "id": "fuzz_886",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"__p\"}}"
+    },
+    {
+      "id": "fuzz_887",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"T3\"}}"
+    },
+    {
+      "id": "fuzz_888",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"Pnz\"}}"
+    },
+    {
+      "id": "fuzz_889",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"a_j\"}}"
+    },
+    {
+      "id": "fuzz_890",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":\"\",\"tags\":{\"component\":\"reeve\",\"op\":\"zE\"}}"
+    },
+    {
+      "id": "fuzz_891",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"qK\"}}"
+    },
+    {
+      "id": "fuzz_892",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"Jv\"}}"
+    },
+    {
+      "id": "fuzz_893",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"ref\"}}"
+    },
+    {
+      "id": "fuzz_894",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-786,\"tags\":{\"component\":\"test\",\"op\":\"z1_\"}}"
+    },
+    {
+      "id": "fuzz_895",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-645,\"tags\":{\"component\":\"reeve\",\"op\":\"32b\"}}"
+    },
+    {
+      "id": "fuzz_896",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"baton\",\"op\":\"YghT\"}}"
+    },
+    {
+      "id": "fuzz_897",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"\",\"tags\":{\"component\":\"baton\",\"op\":\"fL\"}}"
+    },
+    {
+      "id": "fuzz_898",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"x-\",\"tags\":{\"component\":\"baton\",\"op\":\"oyR8yD.\"}}"
+    },
+    {
+      "id": "fuzz_899",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-3,\"tags\":{\"component\":\"test\",\"op\":\"n\"}}"
+    },
+    {
+      "id": "fuzz_900",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"u9F\"}}"
+    },
+    {
+      "id": "fuzz_901",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"cMP3\"}}"
+    },
+    {
+      "id": "fuzz_902",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":-184,\"tags\":{\"component\":\"fuzz\",\"op\":\"ND\"}}"
+    },
+    {
+      "id": "fuzz_903",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"X4.1.O\"}}"
+    },
+    {
+      "id": "fuzz_904",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"1\"}}"
+    },
+    {
+      "id": "fuzz_905",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"JZZ\"}}"
+    },
+    {
+      "id": "fuzz_906",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"LPH3xAAY\"}}"
+    },
+    {
+      "id": "fuzz_907",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"58\"}}"
+    },
+    {
+      "id": "fuzz_908",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"M0L-\"}}"
+    },
+    {
+      "id": "fuzz_909",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"callha\"}}"
+    },
+    {
+      "id": "fuzz_910",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"w7\"}}"
+    },
+    {
+      "id": "fuzz_911",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"le\"}}"
+    },
+    {
+      "id": "fuzz_912",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"test\",\"op\":\"Amiy5C\"}}"
+    },
+    {
+      "id": "fuzz_913",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"3fV\"}}"
+    },
+    {
+      "id": "fuzz_914",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"C\"}}"
+    },
+    {
+      "id": "fuzz_915",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Yqz3\"}}"
+    },
+    {
+      "id": "fuzz_916",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"Ha\"}}"
+    },
+    {
+      "id": "fuzz_917",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"VP\"}}"
+    },
+    {
+      "id": "fuzz_918",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"vO0b\"}}"
+    },
+    {
+      "id": "fuzz_919",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"baton\",\"op\":\"e\"}}"
+    },
+    {
+      "id": "fuzz_920",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"z\"}}"
+    },
+    {
+      "id": "fuzz_921",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"p\"}}"
+    },
+    {
+      "id": "fuzz_922",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-700,\"tags\":{\"component\":\"reeve\",\"op\":\"3UT\"}}"
+    },
+    {
+      "id": "fuzz_923",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"1Q\"}}"
+    },
+    {
+      "id": "fuzz_924",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"s9nlX\"}}"
+    },
+    {
+      "id": "fuzz_925",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"4G\"}}"
+    },
+    {
+      "id": "fuzz_926",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"A\"}}"
+    },
+    {
+      "id": "fuzz_927",
+      "canonical": "{\"outcome\":\"ok\",\"value\":278,\"tags\":{\"component\":\"test\",\"op\":\"x4Za4u8\"}}"
+    },
+    {
+      "id": "fuzz_928",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"reeve\",\"op\":\"apply\"}}"
+    },
+    {
+      "id": "fuzz_929",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"pD\"}}"
+    },
+    {
+      "id": "fuzz_930",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"reeve\",\"op\":\"8b\"}}"
+    },
+    {
+      "id": "fuzz_931",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"S\"}}"
+    },
+    {
+      "id": "fuzz_932",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"FZ6\"}}"
+    },
+    {
+      "id": "fuzz_933",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"By\"}}"
+    },
+    {
+      "id": "fuzz_934",
+      "canonical": "{\"outcome\":\"fallback\",\"value\":\"\\\"g$\",\"tags\":{\"component\":\"fuzz\",\"op\":\"zlro\"}}"
+    },
+    {
+      "id": "fuzz_935",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"q\"}}"
+    },
+    {
+      "id": "fuzz_936",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"OtherErr\",\"tags\":{\"component\":\"fuzz\",\"op\":\"1property\"}}"
+    },
+    {
+      "id": "fuzz_937",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-975,\"tags\":{\"component\":\"baton\",\"op\":\"Cto\"}}"
+    },
+    {
+      "id": "fuzz_938",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"reeve\",\"op\":\"yH3gd\"}}"
+    },
+    {
+      "id": "fuzz_939",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"reeve\",\"op\":\"0\"}}"
+    },
+    {
+      "id": "fuzz_940",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"_w\"}}"
+    },
+    {
+      "id": "fuzz_941",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Dn3PlAAoN\"}}"
+    },
+    {
+      "id": "fuzz_942",
+      "canonical": "{\"outcome\":\"ok\",\"value\":-7,\"tags\":{\"component\":\"test\",\"op\":\"4JIn\"}}"
+    },
+    {
+      "id": "fuzz_943",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"K\"}}"
+    },
+    {
+      "id": "fuzz_944",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"u&Rkl\",\"tags\":{\"component\":\"test\",\"op\":\"K\"}}"
+    },
+    {
+      "id": "fuzz_945",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"sx6\"}}"
+    },
+    {
+      "id": "fuzz_946",
+      "canonical": "{\"outcome\":\"ok\",\"value\":true,\"tags\":{\"component\":\"fuzz\",\"op\":\"ref\"}}"
+    },
+    {
+      "id": "fuzz_947",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"N\"}}"
+    },
+    {
+      "id": "fuzz_948",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Pbct\"}}"
+    },
+    {
+      "id": "fuzz_949",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"k1q\"}}"
+    },
+    {
+      "id": "fuzz_950",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"test\",\"op\":\"apply\"}}"
+    },
+    {
+      "id": "fuzz_951",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"Ig\"}}"
+    },
+    {
+      "id": "fuzz_952",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"RSePm$dP\",\"tags\":{\"component\":\"test\",\"op\":\"bEB\"}}"
+    },
+    {
+      "id": "fuzz_953",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"propertyIsE\"}}"
+    },
+    {
+      "id": "fuzz_954",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"8\"}}"
+    },
+    {
+      "id": "fuzz_955",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"baton\",\"op\":\"qwz9Bnjj\"}}"
+    },
+    {
+      "id": "fuzz_956",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"3\"}}"
+    },
+    {
+      "id": "fuzz_957",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"U\"}}"
+    },
+    {
+      "id": "fuzz_958",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"HX\"}}"
+    },
+    {
+      "id": "fuzz_959",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"zAe1In-\"}}"
+    },
+    {
+      "id": "fuzz_960",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"keya\"}}"
+    },
+    {
+      "id": "fuzz_961",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"lQ0\"}}"
+    },
+    {
+      "id": "fuzz_962",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"y30\"}}"
+    },
+    {
+      "id": "fuzz_963",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"GG\"}}"
+    },
+    {
+      "id": "fuzz_964",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"xGprotot\"}}"
+    },
+    {
+      "id": "fuzz_965",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"$_HL~\",\"tags\":{\"component\":\"baton\",\"op\":\"9\"}}"
+    },
+    {
+      "id": "fuzz_966",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"q\"}}"
+    },
+    {
+      "id": "fuzz_967",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\"m7\"}}"
+    },
+    {
+      "id": "fuzz_968",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"baton\",\"op\":\"hU\"}}"
+    },
+    {
+      "id": "fuzz_969",
+      "canonical": "{\"outcome\":\"ok\",\"value\":\"z\",\"tags\":{\"component\":\"reeve\",\"op\":\"valueOf\"}}"
+    },
+    {
+      "id": "fuzz_970",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"kg__defi\"}}"
+    },
+    {
+      "id": "fuzz_971",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"A\"}}"
+    },
+    {
+      "id": "fuzz_972",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"1\"}}"
+    },
+    {
+      "id": "fuzz_973",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"Q\"}}"
+    },
+    {
+      "id": "fuzz_974",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"NetError\",\"tags\":{\"component\":\"baton\",\"op\":\"gCo\"}}"
+    },
+    {
+      "id": "fuzz_975",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"z\"}}"
+    },
+    {
+      "id": "fuzz_976",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"baton\",\"op\":\"j\"}}"
+    },
+    {
+      "id": "fuzz_977",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"K\"}}"
+    },
+    {
+      "id": "fuzz_978",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"5Bhargu\"}}"
+    },
+    {
+      "id": "fuzz_979",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"6voJ\"}}"
+    },
+    {
+      "id": "fuzz_980",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"u__lookupS\"}}"
+    },
+    {
+      "id": "fuzz_981",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"5n\"}}"
+    },
+    {
+      "id": "fuzz_982",
+      "canonical": "{\"outcome\":\"budget_exceeded\",\"errorName\":\"BudgetExceededError\",\"tags\":{\"component\":\"reeve\",\"op\":\"_MrfG\"}}"
+    },
+    {
+      "id": "fuzz_983",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"test\",\"op\":\"m.w\"}}"
+    },
+    {
+      "id": "fuzz_984",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"e\"}}"
+    },
+    {
+      "id": "fuzz_985",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"fuzz\",\"op\":\"JguK\"}}"
+    },
+    {
+      "id": "fuzz_986",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"AbortError\",\"tags\":{\"component\":\"reeve\",\"op\":\"Y\"}}"
+    },
+    {
+      "id": "fuzz_987",
+      "canonical": "{\"outcome\":\"fallback_failed\",\"errorName\":\"FallbackFailedError\",\"originalErrorName\":\"AbortError\",\"fallbackErrorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"-\"}}"
+    },
+    {
+      "id": "fuzz_988",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"baton\",\"op\":\".o-WK\"}}"
+    },
+    {
+      "id": "fuzz_989",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"fkbBd\"}}"
+    },
+    {
+      "id": "fuzz_990",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"PrimaryBoom\",\"tags\":{\"component\":\"test\",\"op\":\"1\"}}"
+    },
+    {
+      "id": "fuzz_991",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"70OK\"}}"
+    },
+    {
+      "id": "fuzz_992",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"-\"}}"
+    },
+    {
+      "id": "fuzz_993",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"test\",\"op\":\"oIsI-\"}}"
+    },
+    {
+      "id": "fuzz_994",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"IOError\",\"tags\":{\"component\":\"fuzz\",\"op\":\"k\"}}"
+    },
+    {
+      "id": "fuzz_995",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"N\"}}"
+    },
+    {
+      "id": "fuzz_996",
+      "canonical": "{\"outcome\":\"ok\",\"value\":111,\"tags\":{\"component\":\"baton\",\"op\":\"j\"}}"
+    },
+    {
+      "id": "fuzz_997",
+      "canonical": "{\"outcome\":\"config_error\",\"errorName\":\"AegisConfigError\",\"tags\":{\"component\":\"reeve\",\"op\":\"5\"}}"
+    },
+    {
+      "id": "fuzz_998",
+      "canonical": "{\"outcome\":\"ok\",\"value\":false,\"tags\":{\"component\":\"reeve\",\"op\":\"8Ta\"}}"
+    },
+    {
+      "id": "fuzz_999",
+      "canonical": "{\"outcome\":\"primary_error\",\"errorName\":\"NetError\",\"tags\":{\"component\":\"test\",\"op\":\"nGcw\"}}"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+# pact.yaml — aegis cross-language contract specification.
+#
+# This file is the canonical behavioral contract. Both the TypeScript
+# implementation (ts/) and the Python sibling (py/) MUST honor every
+# clause below. The golden vectors at vectors/budget-cases.json encode
+# specific input/output pairs; the differential fuzzer (ts/tests/
+# differential.test.ts and py/tests/test_differential.py) generates
+# random inputs and asserts the two implementations produce
+# byte-identical results.
+#
+# This file is NOT consumed by the pact pipeline CLI (pact-cli is for
+# contract-first decomposition projects). It is a behavioral spec doc;
+# treat it as load-bearing — drift here means the twin impls have
+# diverged.
+
+component: aegis
+version: 0.1.0
+description: |
+  Resource-budget primitive. Wraps a blocking call with a declared
+  timeout, optional fallback, and structured tags. Cooperative
+  containment only (does not kill synchronous CPU burns; samples
+  memory rather than enforcing per-call limits).
+
+implementations:
+  typescript:
+    package_name: '@stack/aegis'
+    runtime: node>=20.10
+    tag_propagation: AsyncLocalStorage
+    monotonic_clock: performance.now()
+  python:
+    package_name: 'stack-aegis'
+    runtime: python>=3.10
+    tag_propagation: contextvars
+    monotonic_clock: time.monotonic()
+
+resource_classes:
+  # Ordered cheapest -> most expensive. A fallback's class must NOT
+  # outrank the primary's class. Equal is permitted.
+  ordering:
+    - mem-sample   # rank 0
+    - cpu          # rank 1
+    - io           # rank 2
+    - pg           # rank 3
+    - llm          # rank 4
+
+contract:
+  inputs:
+    budget:
+      timeoutMs: positive integer (wall-clock deadline)
+      signalRespecting: boolean
+      pgStatementTimeoutMs: optional positive integer
+    tags:
+      component: required string
+      op: required string
+      tenantId: optional string
+      correlationId: optional string
+    primaryResourceClass: ResourceClass enum
+    fallback:
+      fn: function (signal) -> Promise/Awaitable<T>
+      resourceClass: ResourceClass enum (must not outrank primary)
+
+  outcomes:
+    - name: ok
+      precondition: primary fn resolves within budget
+      result: returns primary fn's value
+    - name: fallback
+      precondition: primary fn aborts at budget AND fallback declared AND fallback resolves
+      result: returns fallback fn's value
+    - name: budget_exceeded
+      precondition: primary fn aborts at budget AND no fallback
+      error: BudgetExceededError with elapsedMs and tags
+    - name: fallback_failed
+      precondition: primary fn aborts at budget AND fallback throws
+      error: FallbackFailedError preserving both originalCause and fallbackCause
+    - name: primary_error
+      precondition: primary fn throws non-abort error before budget exhausted
+      result: original error propagates UNWRAPPED (not BudgetExceededError)
+    - name: config_error
+      precondition: fallback.resourceClass strictly outranks primary
+      error: AegisConfigError thrown synchronously at wrap-time
+
+invariants:
+  - name: timing_bound
+    statement: |
+      Wall-clock elapsed must be < budget.timeoutMs + slack across
+      all paths. Slack is implementation-defined but bounded; tests
+      assert <= 200ms slack on a quiet box.
+  - name: tag_propagation
+    statement: |
+      Inside the wrapped fn (and any descendant async work), the
+      active aegis tags MUST be readable via getAegisTags() / get_aegis_tags().
+  - name: fresh_signal_for_fallback
+    statement: |
+      The fallback fn receives a NEW AbortSignal with its own budget
+      timer, not the exhausted primary signal.
+  - name: no_swallowed_errors
+    statement: |
+      Primary errors that are not budget-related propagate unwrapped.
+      The wrapper never replaces a caller's domain error with a
+      BudgetExceededError.
+
+testing:
+  golden_vectors: vectors/budget-cases.json
+  differential_fuzzer:
+    typescript: ts/tests/differential.test.ts
+    python: py/tests/test_differential.py
+  minimum_runs: 1000
+  fail_on: any divergence between impls
+
+out_of_scope:
+  - Synchronous CPU-burn containment (use worker_threads / multiprocessing)
+  - Per-call memory enforcement (sampling only; ADR-002 follow-up)
+  - Retry policy (compose externally)
+  - Cross-language process boundary (each impl is in-process)

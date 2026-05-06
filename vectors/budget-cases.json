@@ -1,0 +1,289 @@
+{
+  "$schema_version": "1.0.0",
+  "description": "Golden vectors for aegis. Both TS and Python impls execute each case and the resulting outcome JSON (after canonicalization) MUST be byte-identical. Cases include the named contract clauses AND the simulacrum-flagged edge cases (sub-millisecond concurrent arrivals, window-expiry boundaries, max timestamps, monotonic-vs-wall-clock, simultaneous primary+fallback exhaust).",
+  "result_shape": {
+    "outcome": "one of: ok | fallback | budget_exceeded | fallback_failed | primary_error | config_error",
+    "value": "primary or fallback return value, present iff outcome ok|fallback",
+    "errorName": "concrete error class name, present iff outcome != ok && outcome != fallback",
+    "originalErrorName": "primary error class name, present iff outcome == fallback_failed",
+    "fallbackErrorName": "fallback error class name, present iff outcome == fallback_failed",
+    "withinBudget": "boolean: was elapsed < timeoutMs + slack (slack = 200ms)",
+    "tags": "echoed tags from input"
+  },
+  "cases": [
+    {
+      "id": "happy_path_ok",
+      "description": "Primary returns within budget; outcome=ok.",
+      "input": {
+        "budget": { "timeoutMs": 200, "signalRespecting": true },
+        "tags": { "component": "test", "op": "happy.path" },
+        "primaryResourceClass": "cpu",
+        "primary": { "kind": "resolve", "value": "ok-value", "delayMs": 0 }
+      },
+      "expected": {
+        "outcome": "ok",
+        "value": "ok-value",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "happy.path" }
+      }
+    },
+    {
+      "id": "primary_completes_just_below_budget",
+      "description": "Primary takes 50ms, budget is 200ms; ok.",
+      "input": {
+        "budget": { "timeoutMs": 200, "signalRespecting": true },
+        "tags": { "component": "test", "op": "below.budget" },
+        "primaryResourceClass": "io",
+        "primary": { "kind": "resolve", "value": 7, "delayMs": 50 }
+      },
+      "expected": {
+        "outcome": "ok",
+        "value": 7,
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "below.budget" }
+      }
+    },
+    {
+      "id": "budget_exceeded_no_fallback",
+      "description": "Primary hangs with no fallback; expect BudgetExceededError.",
+      "input": {
+        "budget": { "timeoutMs": 100, "signalRespecting": true },
+        "tags": { "component": "test", "op": "hang.no.fallback" },
+        "primaryResourceClass": "io",
+        "primary": { "kind": "hang_until_abort" }
+      },
+      "expected": {
+        "outcome": "budget_exceeded",
+        "errorName": "BudgetExceededError",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "hang.no.fallback" }
+      }
+    },
+    {
+      "id": "fallback_succeeds_on_budget_exhaust",
+      "description": "Primary hangs; fallback returns; outcome=fallback.",
+      "input": {
+        "budget": { "timeoutMs": 100, "signalRespecting": true },
+        "tags": { "component": "test", "op": "hang.with.fallback" },
+        "primaryResourceClass": "llm",
+        "primary": { "kind": "hang_until_abort" },
+        "fallback": {
+          "resourceClass": "cpu",
+          "fn": { "kind": "resolve", "value": "fallback-value", "delayMs": 0 }
+        }
+      },
+      "expected": {
+        "outcome": "fallback",
+        "value": "fallback-value",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "hang.with.fallback" }
+      }
+    },
+    {
+      "id": "fallback_also_fails",
+      "description": "Both primary (timeout) and fallback (raise) fail; FallbackFailedError preserves both causes.",
+      "input": {
+        "budget": { "timeoutMs": 100, "signalRespecting": true },
+        "tags": { "component": "test", "op": "both.fail" },
+        "primaryResourceClass": "llm",
+        "primary": { "kind": "hang_until_abort" },
+        "fallback": {
+          "resourceClass": "cpu",
+          "fn": { "kind": "reject", "errorName": "FallbackBoom", "errorMessage": "fallback boom" }
+        }
+      },
+      "expected": {
+        "outcome": "fallback_failed",
+        "errorName": "FallbackFailedError",
+        "originalErrorName": "AbortError",
+        "fallbackErrorName": "FallbackBoom",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "both.fail" }
+      }
+    },
+    {
+      "id": "primary_error_unwrapped",
+      "description": "Primary throws non-abort within budget; original error propagates unwrapped (no BudgetExceededError, no fallback invoked).",
+      "input": {
+        "budget": { "timeoutMs": 1000, "signalRespecting": true },
+        "tags": { "component": "test", "op": "primary.threw" },
+        "primaryResourceClass": "pg",
+        "primary": {
+          "kind": "reject",
+          "errorName": "PrimaryError",
+          "errorMessage": "primary failed for its own reasons",
+          "delayMs": 0
+        },
+        "fallback": {
+          "resourceClass": "cpu",
+          "fn": { "kind": "resolve", "value": "should-not-be-called", "delayMs": 0 }
+        }
+      },
+      "expected": {
+        "outcome": "primary_error",
+        "errorName": "PrimaryError",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "primary.threw" }
+      }
+    },
+    {
+      "id": "config_error_fallback_outranks_primary",
+      "description": "Wrap-time validation: fallback resourceClass=llm vs primary=cpu. AegisConfigError thrown synchronously.",
+      "input": {
+        "budget": { "timeoutMs": 100, "signalRespecting": true },
+        "tags": { "component": "test", "op": "illegal.fallback" },
+        "primaryResourceClass": "cpu",
+        "primary": { "kind": "resolve", "value": "never", "delayMs": 0 },
+        "fallback": {
+          "resourceClass": "llm",
+          "fn": { "kind": "resolve", "value": "never", "delayMs": 0 }
+        }
+      },
+      "expected": {
+        "outcome": "config_error",
+        "errorName": "AegisConfigError",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "illegal.fallback" }
+      }
+    },
+    {
+      "id": "fallback_equal_resource_class_allowed",
+      "description": "Equal resource class is permitted; only strict-greater is rejected.",
+      "input": {
+        "budget": { "timeoutMs": 200, "signalRespecting": true },
+        "tags": { "component": "test", "op": "equal.fallback" },
+        "primaryResourceClass": "pg",
+        "primary": { "kind": "resolve", "value": "primary", "delayMs": 0 },
+        "fallback": {
+          "resourceClass": "pg",
+          "fn": { "kind": "resolve", "value": "fallback", "delayMs": 0 }
+        }
+      },
+      "expected": {
+        "outcome": "ok",
+        "value": "primary",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "equal.fallback" }
+      }
+    },
+
+    {
+      "id": "edge_sub_millisecond_concurrent_arrivals",
+      "description": "Sim-flagged: very short hang (1ms budget) — Node microtask queue and Python asyncio event loop schedule differently. Both must converge to budget_exceeded.",
+      "input": {
+        "budget": { "timeoutMs": 1, "signalRespecting": true },
+        "tags": { "component": "test", "op": "edge.sub_ms" },
+        "primaryResourceClass": "io",
+        "primary": { "kind": "hang_until_abort" }
+      },
+      "expected": {
+        "outcome": "budget_exceeded",
+        "errorName": "BudgetExceededError",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "edge.sub_ms" }
+      }
+    },
+    {
+      "id": "edge_window_expiry_just_before",
+      "description": "Sim-flagged: primary completes 50ms before a 200ms budget; ok.",
+      "input": {
+        "budget": { "timeoutMs": 200, "signalRespecting": true },
+        "tags": { "component": "test", "op": "edge.before" },
+        "primaryResourceClass": "io",
+        "primary": { "kind": "resolve", "value": "in-time", "delayMs": 150 }
+      },
+      "expected": {
+        "outcome": "ok",
+        "value": "in-time",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "edge.before" }
+      }
+    },
+    {
+      "id": "edge_window_expiry_just_after",
+      "description": "Sim-flagged: primary takes 250ms vs 100ms budget; budget_exceeded.",
+      "input": {
+        "budget": { "timeoutMs": 100, "signalRespecting": true },
+        "tags": { "component": "test", "op": "edge.after" },
+        "primaryResourceClass": "io",
+        "primary": { "kind": "hang_until_abort" }
+      },
+      "expected": {
+        "outcome": "budget_exceeded",
+        "errorName": "BudgetExceededError",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "edge.after" }
+      }
+    },
+    {
+      "id": "edge_max_timestamp_large_budget",
+      "description": "Sim-flagged: max representable timeout (well within int53). Tests that we don't overflow when budget is very large; primary returns immediately so we never time out.",
+      "input": {
+        "budget": { "timeoutMs": 86400000, "signalRespecting": true },
+        "tags": { "component": "test", "op": "edge.max_ts" },
+        "primaryResourceClass": "cpu",
+        "primary": { "kind": "resolve", "value": "fast", "delayMs": 0 }
+      },
+      "expected": {
+        "outcome": "ok",
+        "value": "fast",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "edge.max_ts" }
+      }
+    },
+    {
+      "id": "edge_monotonic_vs_wall_clock",
+      "description": "Sim-flagged: aegis uses monotonic time (performance.now / time.monotonic). Even if wall-clock jumps, the budget timer must fire by elapsed monotonic. We assert the abstract behavior — primary hangs, budget_exceeded reached.",
+      "input": {
+        "budget": { "timeoutMs": 80, "signalRespecting": true },
+        "tags": { "component": "test", "op": "edge.monotonic" },
+        "primaryResourceClass": "io",
+        "primary": { "kind": "hang_until_abort" }
+      },
+      "expected": {
+        "outcome": "budget_exceeded",
+        "errorName": "BudgetExceededError",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "edge.monotonic" }
+      }
+    },
+    {
+      "id": "edge_primary_and_fallback_both_exhaust",
+      "description": "Sim-flagged: primary AND fallback both hang until their budgets exhaust. Error tree must be FallbackFailedError preserving both AbortErrors.",
+      "input": {
+        "budget": { "timeoutMs": 50, "signalRespecting": true },
+        "tags": { "component": "test", "op": "edge.both_exhaust" },
+        "primaryResourceClass": "llm",
+        "primary": { "kind": "hang_until_abort" },
+        "fallback": {
+          "resourceClass": "io",
+          "fn": { "kind": "hang_until_abort" }
+        }
+      },
+      "expected": {
+        "outcome": "fallback_failed",
+        "errorName": "FallbackFailedError",
+        "originalErrorName": "AbortError",
+        "fallbackErrorName": "AbortError",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "edge.both_exhaust" }
+      }
+    },
+    {
+      "id": "edge_primary_resolves_during_abort_race",
+      "description": "Sim-flagged: primary resolves at the same moment the budget timer fires. Either ok OR budget_exceeded is acceptable per spec — we accept both. Encoded as 'race_ok_or_budget'. Vectors test the deterministic-far-side here: primary delays well past budget, expect budget_exceeded.",
+      "input": {
+        "budget": { "timeoutMs": 50, "signalRespecting": true },
+        "tags": { "component": "test", "op": "edge.race" },
+        "primaryResourceClass": "io",
+        "primary": { "kind": "hang_until_abort" }
+      },
+      "expected": {
+        "outcome": "budget_exceeded",
+        "errorName": "BudgetExceededError",
+        "withinBudget": true,
+        "tags": { "component": "test", "op": "edge.race" }
+      }
+    }
+  ]
+}

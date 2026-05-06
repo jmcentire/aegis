@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stack-aegis"
+version = "0.1.0"
+description = "aegis — resource-budget primitive (Python sibling). Wraps blocking calls with declared timeouts, optional fallbacks, and structured tags."
+readme = "../README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Jeremy McEntire", email = "jandrewmcentire@gmail.com" },
+]
+keywords = ["resource-budget", "timeout", "fallback", "asyncio"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.23",
+    "hypothesis>=6.100",
+]
+
+[project.urls]
+Homepage = "https://github.com/jmcentire/aegis"
+Repository = "https://github.com/jmcentire/aegis"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+filterwarnings = [
+    "error",
+    "ignore::DeprecationWarning",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "RUF"]
