@@ -16,7 +16,7 @@ import { describe, expect, it } from 'vitest';
 import { type GoldenCase, runCase } from '../_helpers/case-runner.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const VECTORS_PATH = resolve(__dirname, '../../../vectors/budget-cases.json');
+const VECTORS_PATH = resolve(__dirname, '../../vectors/budget-cases.json');
 
 const vectors = JSON.parse(readFileSync(VECTORS_PATH, 'utf8')) as { cases: GoldenCase[] };
 

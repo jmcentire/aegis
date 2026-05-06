@@ -3,7 +3,7 @@
 // primary fn raising its own error. We keep the error tree shallow on
 // purpose — three concrete shapes is enough for every call site.
 
-import type { Budget, Tags } from './types.ts';
+import type { Budget, Tags } from './types.js';
 
 export class BudgetExceededError extends Error {
   override readonly name = 'BudgetExceededError';

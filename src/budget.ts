@@ -19,9 +19,9 @@
 // aegis does not import any logging library — that is consumer choice.
 
 import { AsyncLocalStorage } from 'node:async_hooks';
-import { AegisConfigError, BudgetExceededError, FallbackFailedError } from './errors.ts';
-import type { AegisEvent, AegisObserver, Tags, WrapArgs } from './types.ts';
-import { resourceClassRank } from './types.ts';
+import { AegisConfigError, BudgetExceededError, FallbackFailedError } from './errors.js';
+import type { AegisEvent, AegisObserver, Tags, WrapArgs } from './types.js';
+import { resourceClassRank } from './types.js';
 
 const tagsContext = new AsyncLocalStorage<Tags>();
 

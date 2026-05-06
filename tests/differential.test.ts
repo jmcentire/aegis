@@ -28,7 +28,7 @@ import { describe, expect, it } from 'vitest';
 import { type CaseInput, canonicalize, runCase } from './_helpers/case-runner.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const SHARED_DIR = resolve(__dirname, '../../vectors/_fuzzer-shared');
+const SHARED_DIR = resolve(__dirname, '../vectors/_fuzzer-shared');
 
 const RUNS = 1000;
 

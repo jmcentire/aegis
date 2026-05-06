@@ -4,7 +4,7 @@ Wrap every blocking call in your stack with a declared timeout, optional
 fallback, and structured tags. aegis is the primitive that makes budgets
 first-class — a blocking call without a budget is a bug.
 
-aegis ships as **twin implementations**: TypeScript (`ts/`) and Python
+aegis ships as **twin implementations**: TypeScript (root) and Python
 (`py/`). Both share a behavioral contract locked in `pact.yaml` and
 verified by golden vectors (`vectors/budget-cases.json`) plus a
 differential fuzzer that runs 1000+ random inputs through both impls
@@ -14,7 +14,7 @@ and asserts byte-identical canonical output.
 
 | Layer                      | TS                    | Python                 |
 | -------------------------- | --------------------- | ---------------------- |
-| Source                     | `ts/src/`             | `py/src/aegis/`        |
+| Source                     | `src/`                | `py/src/aegis/`        |
 | Contract tests             | 13 passing            | 10 passing             |
 | Golden vectors             | 15 cases passing      | 15 cases passing       |
 | Differential fuzzer        | 1000 cases generated  | 1000 cases compared    |
@@ -28,30 +28,20 @@ the architecture lock.
 
 ### Install
 
-aegis is consumed as a git dependency (no npm registry publish until
-3+ consumers exist):
+aegis is consumed as a git dependency. The package's `prepare` script
+runs `tsc → dist/` at install time, so `npm install` from a git URL
+gets a fully built package with `.d.ts` files.
 
 ```json
 {
   "dependencies": {
-    "@stack/aegis": "git+ssh://git@github.com/jmcentire/aegis.git#main"
+    "@stack/aegis": "git+https://github.com/jmcentire/aegis.git#v0.1.1"
   }
 }
 ```
 
-If your repo uses npm workspaces and you want a subpath of the aegis
-repo (`ts/`), declare:
-
-```json
-{
-  "dependencies": {
-    "@stack/aegis": "git+ssh://git@github.com/jmcentire/aegis.git#main"
-  }
-}
-```
-
-(npm and pnpm both resolve the `ts/` subpath via the package's
-`exports` field.)
+Pin a specific tag (recommended) or follow `main` if you want
+unreleased fixes.
 
 ### Wrap a blocking call
 
@@ -271,22 +261,21 @@ aegis/
 ├── ADR-001-extraction.md     # twin TS+Python decision
 ├── pact.yaml                 # behavioral contract spec (doc artifact)
 ├── README.md                 # this file
-├── package.json              # workspace root
-├── ts/
-│   ├── src/                  # TS impl
-│   │   ├── types.ts
-│   │   ├── errors.ts
-│   │   ├── budget.ts
-│   │   └── index.ts
-│   ├── tests/                # vitest
-│   │   ├── unit/
-│   │   ├── integration/
-│   │   ├── golden/           # consumes ../../vectors/budget-cases.json
-│   │   └── differential.test.ts
-│   ├── package.json          # @stack/aegis
-│   ├── tsconfig.json
-│   ├── vitest.config.ts
-│   └── biome.json
+├── package.json              # @stack/aegis (TS package)
+├── tsconfig.json             # TS compiler config (allowImportingTsExtensions for dev)
+├── tsconfig.build.json       # emits dist/ via the prepare script
+├── vitest.config.ts
+├── biome.json
+├── src/                      # TS impl
+│   ├── types.ts
+│   ├── errors.ts
+│   ├── budget.ts
+│   └── index.ts
+├── tests/                    # vitest
+│   ├── unit/
+│   ├── integration/
+│   ├── golden/               # consumes ../vectors/budget-cases.json
+│   └── differential.test.ts
 ├── py/
 │   ├── src/aegis/            # Python impl
 │   │   ├── types.py

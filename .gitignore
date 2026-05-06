@@ -1,8 +1,7 @@
 # Node
 node_modules/
-ts/node_modules/
-ts/dist/
-ts/.tsbuildinfo
+dist/
+.tsbuildinfo
 *.log
 
 # Python

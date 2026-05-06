@@ -12,8 +12,8 @@ export {
   getAegisTags,
   setAegisObserver,
   withResourceBudget,
-} from './budget.ts';
-export { AegisConfigError, BudgetExceededError, FallbackFailedError } from './errors.ts';
+} from './budget.js';
+export { AegisConfigError, BudgetExceededError, FallbackFailedError } from './errors.js';
 export type {
   AegisEvent,
   AegisObserver,
@@ -23,5 +23,5 @@ export type {
   ResourceClass,
   Tags,
   WrapArgs,
-} from './types.ts';
-export { resourceClassRank } from './types.ts';
+} from './types.js';
+export { resourceClassRank } from './types.js';

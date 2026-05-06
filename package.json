@@ -1,25 +1,48 @@
 {
-  "name": "@stack/aegis-workspace",
-  "version": "0.1.0",
-  "private": true,
-  "description": "aegis — resource-budget primitive (twin TS+Python). Workspace root.",
+  "name": "@stack/aegis",
+  "version": "0.1.1",
+  "description": "aegis — resource-budget primitive for the Exemplar stack. Wraps blocking calls with declared timeouts, optional fallbacks, and structured tags.",
   "license": "MIT",
   "type": "module",
-  "workspaces": [
-    "ts"
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "SPEC.md"
   ],
   "scripts": {
-    "test": "npm --workspace=ts run test",
-    "test:ts": "npm --workspace=ts run test",
-    "test:py": "(cd py && pytest)",
-    "test:all": "npm run test:ts && npm run test:py",
-    "lint": "npm --workspace=ts run lint"
+    "build": "tsc -p tsconfig.build.json",
+    "prepare": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "type-check": "tsc --noEmit",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write ."
   },
   "engines": {
     "node": ">=20.10.0"
   },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "@types/node": "^22.0.0",
+    "fast-check": "^3.23.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jmcentire/aegis.git"
+    "url": "git+https://github.com/jmcentire/aegis.git"
+  },
+  "homepage": "https://github.com/jmcentire/aegis#readme",
+  "bugs": {
+    "url": "https://github.com/jmcentire/aegis/issues"
   }
 }
