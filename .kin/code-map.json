@@ -1,0 +1,649 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "aegis",
+    "description": "Code map exported from Kindex for aegis.",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "frameworks": [],
+    "analyzedAt": "2026-05-24T14:43:28",
+    "gitCommitHash": "afae035d6e56402a35d465f81f3094868b883ca2"
+  },
+  "nodes": [
+    {
+      "id": "code-mod-aegis-4230a7a5f5ae",
+      "type": "file",
+      "name": "py/src/aegis/budget.py",
+      "filePath": "py/src/aegis/budget.py",
+      "summary": "Language: Python | Path: py/src/aegis/budget.py | ~109 lines ## Classes - AbortError(Exception)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 9,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-aegis-a04fbdb829b3",
+      "type": "file",
+      "name": "py/src/aegis/errors.py",
+      "filePath": "py/src/aegis/errors.py",
+      "summary": "Language: Python | Path: py/src/aegis/errors.py | ~64 lines ## Classes - AegisConfigError(Exception)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 3,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-aegis-bbe18cc6fc13",
+      "type": "file",
+      "name": "py/src/aegis/types.py",
+      "filePath": "py/src/aegis/types.py",
+      "summary": "Language: Python | Path: py/src/aegis/types.py | ~120 lines ## Classes - AegisEvent",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 6,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-aegis-8c726a06a819",
+      "type": "file",
+      "name": "lint/ruff-aegis.py",
+      "filePath": "lint/ruff-aegis.py",
+      "summary": "Language: Python | Path: lint/ruff-aegis.py | ~100 lines ## Classes - AegisLintRuleConfig",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 2,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-aegis-ecdfe5496468",
+      "type": "file",
+      "name": "py/tests/test_differential.py",
+      "filePath": "py/tests/test_differential.py",
+      "summary": "Language: Python | Path: py/tests/test_differential.py | ~174 lines ## Functions - test_differential_against_ts_outcomes() -> None",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 5,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-aegis-46c8bfb7d21c",
+      "type": "file",
+      "name": "py/tests/test_budget.py",
+      "filePath": "py/tests/test_budget.py",
+      "summary": "Language: Python | Path: py/tests/test_budget.py | ~237 lines ## Functions - test_accepts_equal_resource_class_fallback() -> None",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 11,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-aegis-77b6e07a09b9",
+      "type": "file",
+      "name": "py/tests/test_golden_vectors.py",
+      "filePath": "py/tests/test_golden_vectors.py",
+      "summary": "Language: Python | Path: py/tests/test_golden_vectors.py | ~245 lines ## Functions - run_case(input_data: dict[str, Any]) -> dict[str,Any]",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 7,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-aegis-ddf9302a9976",
+      "type": "file",
+      "name": "py/src/aegis/__init__.py",
+      "filePath": "py/src/aegis/__init__.py",
+      "summary": "Language: Python | Path: py/src/aegis/__init__.py | ~30 lines",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-aegis-feb3fc0a2cb4",
+      "type": "file",
+      "name": "py/tests/test_types.py",
+      "filePath": "py/tests/test_types.py",
+      "summary": "Language: Python | Path: py/tests/test_types.py | ~18 lines ## Functions - test_preserves_cpu_io_pg_llm_ordering() -> None",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 3,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-aegis-717f944af2c8",
+      "type": "file",
+      "name": "src/budget.ts",
+      "filePath": "src/budget.ts",
+      "summary": "Language: TypeScript | Path: src/budget.ts | ~118 lines ## Functions - clearAegisObserver()",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "complexity": 5,
+      "languageNotes": {
+        "language": "TypeScript",
+        "kindexType": "artifact",
+        "toolTier": "A"
+      }
+    },
+    {
+      "id": "code-sym-aegis-9ba3cc6aa0f7",
+      "type": "class",
+      "name": "WrapArgs",
+      "filePath": "py/src/aegis/types.py",
+      "summary": "class WrapArgs (py/src/aegis/types.py:83)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-mod-aegis-c54113cf61ec",
+      "type": "file",
+      "name": "src/types.ts",
+      "filePath": "src/types.ts",
+      "summary": "Language: TypeScript | Path: src/types.ts | ~97 lines ## Functions - resourceClassRank()",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "TypeScript",
+        "kindexType": "artifact",
+        "toolTier": "A"
+      }
+    },
+    {
+      "id": "code-mod-aegis-d5b36fedea50",
+      "type": "file",
+      "name": "lint/biome-aegis.ts",
+      "filePath": "lint/biome-aegis.ts",
+      "summary": "Language: TypeScript | Path: lint/biome-aegis.ts | ~87 lines ## Functions - aegisLintRule()",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "TypeScript",
+        "kindexType": "artifact",
+        "toolTier": "A"
+      }
+    },
+    {
+      "id": "code-sym-aegis-b28038d036f4",
+      "type": "class",
+      "name": "AegisLintRuleConfig",
+      "filePath": "lint/ruff-aegis.py",
+      "summary": "class AegisLintRuleConfig (lint/ruff-aegis.py:57)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-aegis-8cbfa33ea2ca",
+      "type": "class",
+      "name": "AegisEvent",
+      "filePath": "py/src/aegis/types.py",
+      "summary": "class AegisEvent (py/src/aegis/types.py:101)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-aegis-4b46ff16adb9",
+      "type": "class",
+      "name": "Budget",
+      "filePath": "py/src/aegis/types.py",
+      "summary": "class Budget (py/src/aegis/types.py:42)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-aegis-2fdb3511af9f",
+      "type": "class",
+      "name": "Fallback",
+      "filePath": "py/src/aegis/types.py",
+      "summary": "class Fallback (py/src/aegis/types.py:77)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-aegis-a1983ed2f6e0",
+      "type": "class",
+      "name": "Tags",
+      "filePath": "py/src/aegis/types.py",
+      "summary": "class Tags (py/src/aegis/types.py:62)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-aegis-a0be3011530e",
+      "type": "class",
+      "name": "AegisConfigError",
+      "filePath": "src/errors.ts",
+      "summary": "class AegisConfigError(Error) (src/errors.ts:39)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "TypeScript",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-aegis-b386a4df30be",
+      "type": "class",
+      "name": "BudgetExceededError",
+      "filePath": "src/errors.ts",
+      "summary": "class BudgetExceededError(Error) (src/errors.ts:8)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "TypeScript",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-aegis-04a649e5dec5",
+      "type": "class",
+      "name": "FallbackFailedError",
+      "filePath": "src/errors.ts",
+      "summary": "class FallbackFailedError(Error) (src/errors.ts:22)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "TypeScript",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-aegis-aa34e9053b5e",
+      "type": "class",
+      "name": "AegisConfigError",
+      "filePath": "py/src/aegis/errors.py",
+      "summary": "class AegisConfigError(Exception) (py/src/aegis/errors.py:57) ## Methods - name(self) -> str",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-aegis-463d5008734d",
+      "type": "class",
+      "name": "BudgetExceededError",
+      "filePath": "py/src/aegis/errors.py",
+      "summary": "class BudgetExceededError(Exception) (py/src/aegis/errors.py:21) ## Methods - name(self) -> str",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-aegis-574f86deee1b",
+      "type": "class",
+      "name": "FallbackFailedError",
+      "filePath": "py/src/aegis/errors.py",
+      "summary": "class FallbackFailedError(Exception) (py/src/aegis/errors.py:38) ## Methods - name(self) -> str",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-mod-aegis-55db69e02ff5",
+      "type": "file",
+      "name": "src/errors.ts",
+      "filePath": "src/errors.ts",
+      "summary": "Language: TypeScript | Path: src/errors.ts | ~41 lines ## Classes - AegisConfigError(Error)",
+      "tags": [
+        "code",
+        "typescript"
+      ],
+      "complexity": 3,
+      "languageNotes": {
+        "language": "TypeScript",
+        "kindexType": "artifact",
+        "toolTier": "A"
+      }
+    },
+    {
+      "id": "code-sym-aegis-113eef2219fc",
+      "type": "class",
+      "name": "AbortError",
+      "filePath": "py/src/aegis/budget.py",
+      "summary": "class AbortError(Exception) (py/src/aegis/budget.py:52) ## Methods - name(self) -> str",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "code-sym-aegis-9ba3cc6aa0f7",
+      "target": "code-mod-aegis-bbe18cc6fc13",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-b28038d036f4",
+      "target": "code-mod-aegis-8c726a06a819",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-8cbfa33ea2ca",
+      "target": "code-mod-aegis-bbe18cc6fc13",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-4b46ff16adb9",
+      "target": "code-mod-aegis-bbe18cc6fc13",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-2fdb3511af9f",
+      "target": "code-mod-aegis-bbe18cc6fc13",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-a1983ed2f6e0",
+      "target": "code-mod-aegis-bbe18cc6fc13",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-a0be3011530e",
+      "target": "code-mod-aegis-55db69e02ff5",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-b386a4df30be",
+      "target": "code-mod-aegis-55db69e02ff5",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-04a649e5dec5",
+      "target": "code-mod-aegis-55db69e02ff5",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-aa34e9053b5e",
+      "target": "code-mod-aegis-a04fbdb829b3",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-463d5008734d",
+      "target": "code-mod-aegis-a04fbdb829b3",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-574f86deee1b",
+      "target": "code-mod-aegis-a04fbdb829b3",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-aegis-113eef2219fc",
+      "target": "code-mod-aegis-4230a7a5f5ae",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    }
+  ],
+  "layers": [
+    {
+      "id": "core",
+      "name": "Core",
+      "description": "Kindex-inferred core layer.",
+      "nodeIds": [
+        "code-mod-aegis-4230a7a5f5ae",
+        "code-mod-aegis-55db69e02ff5",
+        "code-mod-aegis-717f944af2c8",
+        "code-mod-aegis-8c726a06a819",
+        "code-mod-aegis-a04fbdb829b3",
+        "code-mod-aegis-bbe18cc6fc13",
+        "code-mod-aegis-c54113cf61ec",
+        "code-mod-aegis-d5b36fedea50",
+        "code-mod-aegis-ddf9302a9976"
+      ]
+    },
+    {
+      "id": "domain",
+      "name": "Domain",
+      "description": "Kindex-inferred domain layer.",
+      "nodeIds": [
+        "code-sym-aegis-04a649e5dec5",
+        "code-sym-aegis-113eef2219fc",
+        "code-sym-aegis-2fdb3511af9f",
+        "code-sym-aegis-463d5008734d",
+        "code-sym-aegis-4b46ff16adb9",
+        "code-sym-aegis-574f86deee1b",
+        "code-sym-aegis-8cbfa33ea2ca",
+        "code-sym-aegis-9ba3cc6aa0f7",
+        "code-sym-aegis-a0be3011530e",
+        "code-sym-aegis-a1983ed2f6e0",
+        "code-sym-aegis-aa34e9053b5e",
+        "code-sym-aegis-b28038d036f4",
+        "code-sym-aegis-b386a4df30be"
+      ]
+    },
+    {
+      "id": "test",
+      "name": "Test",
+      "description": "Kindex-inferred test layer.",
+      "nodeIds": [
+        "code-mod-aegis-46c8bfb7d21c",
+        "code-mod-aegis-77b6e07a09b9",
+        "code-mod-aegis-ecdfe5496468",
+        "code-mod-aegis-feb3fc0a2cb4"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Core",
+      "description": "Review 9 node(s) in the Core layer.",
+      "nodeIds": [
+        "code-mod-aegis-4230a7a5f5ae",
+        "code-mod-aegis-55db69e02ff5",
+        "code-mod-aegis-717f944af2c8",
+        "code-mod-aegis-8c726a06a819",
+        "code-mod-aegis-a04fbdb829b3",
+        "code-mod-aegis-bbe18cc6fc13",
+        "code-mod-aegis-c54113cf61ec",
+        "code-mod-aegis-d5b36fedea50",
+        "code-mod-aegis-ddf9302a9976"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Domain",
+      "description": "Review 13 node(s) in the Domain layer.",
+      "nodeIds": [
+        "code-sym-aegis-04a649e5dec5",
+        "code-sym-aegis-113eef2219fc",
+        "code-sym-aegis-2fdb3511af9f",
+        "code-sym-aegis-463d5008734d",
+        "code-sym-aegis-4b46ff16adb9",
+        "code-sym-aegis-574f86deee1b",
+        "code-sym-aegis-8cbfa33ea2ca",
+        "code-sym-aegis-9ba3cc6aa0f7",
+        "code-sym-aegis-a0be3011530e",
+        "code-sym-aegis-a1983ed2f6e0",
+        "code-sym-aegis-aa34e9053b5e",
+        "code-sym-aegis-b28038d036f4",
+        "code-sym-aegis-b386a4df30be"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Test",
+      "description": "Review 4 node(s) in the Test layer.",
+      "nodeIds": [
+        "code-mod-aegis-46c8bfb7d21c",
+        "code-mod-aegis-77b6e07a09b9",
+        "code-mod-aegis-ecdfe5496468",
+        "code-mod-aegis-feb3fc0a2cb4"
+      ]
+    }
+  ]
+}
