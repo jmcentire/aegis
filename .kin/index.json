@@ -1,0 +1,299 @@
+{
+  "domains": [
+    "code",
+    "python",
+    "typescript"
+  ],
+  "node_count": 26,
+  "nodes": [
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-aegis-4230a7a5f5ae",
+      "title": "py/src/aegis/budget.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-aegis-46c8bfb7d21c",
+      "title": "py/tests/test_budget.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-aegis-55db69e02ff5",
+      "title": "src/errors.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-aegis-717f944af2c8",
+      "title": "src/budget.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-aegis-77b6e07a09b9",
+      "title": "py/tests/test_golden_vectors.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-aegis-8c726a06a819",
+      "title": "lint/ruff-aegis.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-aegis-a04fbdb829b3",
+      "title": "py/src/aegis/errors.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-aegis-bbe18cc6fc13",
+      "title": "py/src/aegis/types.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-aegis-c54113cf61ec",
+      "title": "src/types.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-mod-aegis-d5b36fedea50",
+      "title": "lint/biome-aegis.ts",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-aegis-ddf9302a9976",
+      "title": "py/src/aegis/__init__.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-aegis-ecdfe5496468",
+      "title": "py/tests/test_differential.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-aegis-feb3fc0a2cb4",
+      "title": "py/tests/test_types.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-aegis-04a649e5dec5",
+      "title": "FallbackFailedError",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-aegis-113eef2219fc",
+      "title": "AbortError",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-aegis-2fdb3511af9f",
+      "title": "Fallback",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-aegis-463d5008734d",
+      "title": "BudgetExceededError",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-aegis-4b46ff16adb9",
+      "title": "Budget",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-aegis-574f86deee1b",
+      "title": "FallbackFailedError",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-aegis-8cbfa33ea2ca",
+      "title": "AegisEvent",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-aegis-9ba3cc6aa0f7",
+      "title": "WrapArgs",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-aegis-a0be3011530e",
+      "title": "AegisConfigError",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-aegis-a1983ed2f6e0",
+      "title": "Tags",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-aegis-aa34e9053b5e",
+      "title": "AegisConfigError",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-aegis-b28038d036f4",
+      "title": "AegisLintRuleConfig",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "typescript"
+      ],
+      "id": "code-sym-aegis-b386a4df30be",
+      "title": "BudgetExceededError",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:46:52",
+      "weight": 0.5
+    }
+  ],
+  "repo": "aegis",
+  "source_updated_at": "2026-05-30T14:46:52",
+  "version": 1
+}
